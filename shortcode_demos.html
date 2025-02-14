@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Air quality advisories</title>
+<title>Shortcode Demonstrations – Air quality advisories</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,93 +66,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-aq-statements .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: [],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-aq-statements'] = new List('listing-aq-statements', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-ssb .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: [],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-ssb'] = new List('listing-ssb', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -197,7 +109,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality">Air Quality Data</a></li><li class="breadcrumb-item"><a href="./index.html">Air advisories</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./shortcode_demos.html">BCDS Shortcode Demos</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -273,7 +185,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Air advisories</span></a>
   </div>
 </li>
@@ -287,7 +199,7 @@ window.Quarto = {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./shortcode_demos.html" class="sidebar-item-text sidebar-link">
+  <a href="./shortcode_demos.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">BCDS Shortcode Demos</span></a>
   </div>
 </li>
@@ -344,9 +256,9 @@ window.Quarto = {
   }
 </script>
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality">Air Quality Data</a></li><li class="breadcrumb-item"><a href="./index.html">Air advisories</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Air quality advisories</h1>
+<h1 class="title">Shortcode Demonstrations</h1>
 </div>
 
 
@@ -363,52 +275,144 @@ window.Quarto = {
 </header>
 
 
-<section id="issued-advisories" class="level2">
-<h2 class="anchored" data-anchor-id="issued-advisories">Issued advisories</h2>
-<div id="listing-aq-statements" class="quarto-listing quarto-listing-container-custom">
-
-    <em>There are currently no air quality advisories in effect.</em>
-
-<div class="listing-no-matching d-none">
-No matching items
+<section id="callouts" class="level2">
+<h2 class="anchored" data-anchor-id="callouts">Callouts</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
 </div>
 </div>
+<div class="callout-body-container callout-body">
+<p>Quarto default callout</p>
+</div>
+</div>
+<p></p><div class="bcds-Callout lightGrey" role="note"><div class="bcds-Callout--Container"><div class="bcds-Callout--Description"><p></p>
+<p>BCDS callout - sample text, defaults</p>
+<p></p></div></div></div><p></p>
+<p></p><div class="bcds-Callout lightGrey" role="note"><div class="bcds-Callout--Container"><div class="bcds-Callout--Title">Titled Callout</div><div class="bcds-Callout--Description"><p></p>
+<p>BCDS callout - sample text, default variant</p>
+<p></p></div></div></div><p></p>
+<p></p><div class="bcds-Callout Blue" role="note"><div class="bcds-Callout--Container"><div class="bcds-Callout--Description"> BCDS callout - sample text, blue variant<p></p>
+<p></p></div></div></div><p></p>
+<p></p><div class="bcds-Callout lightBlue" role="note"><div class="bcds-Callout--Container"><div class="bcds-Callout--Title">Titled, variant</div><div class="bcds-Callout--Description"> BCDS callout - sample text, light blue variant, with title<p></p>
+<p></p></div></div></div><p></p>
 </section>
-<section id="current-smoky-skies-bulletin-map" class="level2">
-<h2 class="anchored" data-anchor-id="current-smoky-skies-bulletin-map">Current Smoky Skies Bulletin map</h2>
-<div id="listing-ssb" class="quarto-listing quarto-listing-container-custom">
-
-    <em>There are currently no smoky skies bulletins in effect.</em>
-
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="latest-updates" class="level2">
-<h2 class="anchored" data-anchor-id="latest-updates">Latest updates</h2>
-<p>For the latest updates:</p>
+<section id="accordions" class="level2">
+<h2 class="anchored" data-anchor-id="accordions">Accordions</h2>
+<p><button class="btn" type="button" onclick="BCDSExpandAll()">Expand All</button><button class="btn" type="button" onclick="BCDSCollapseAll()">Collapse All</button></p>
+<p></p><details class="bcds-disclosure"><summary class="">Accordion Example - Continuous Monitoring</summary><div class="panel"><p></p>
+<p>In continuous monitoring, air quality is constantly measured by drawing air in through various tubes that are connected to data loggers that automatically transmit the data to a central MOE database. The data is automatically checked for errors and is published hourly on the Current Air Data page, where it is available to the public, and used to calculate the Air Quality Health Index (AQHI).</p>
+<p>This data is useful for providing real-time information and for calculating indexes. However, until it goes through the MOE’s data validation process, it is still considered raw data and should not be used for comparing to air quality guidelines or objectives.</p>
+<p>The province uses a wide range of automated instruments to collect and measure air quality data, including the following (with instrument acronyms and parameters measured in parenthesis):</p>
 <ul>
-<li>Subscribe to the <a href="https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality/air-advisories/air-quality-subscription-service">Air Quality Subscription Service</a></li>
-<li>Outside regular business hours, visit <a href="https://weather.gc.ca/?province=bc&amp;zoom=5&amp;alertTableFilterProv=BC">Environment and Climate Change Canada’s Public Weather Alerts for B.C.</a></li>
-<li>For <strong>Metro Vancouver</strong> and the <strong>Fraser Valley Regional District</strong>, see <a href="https://metrovancouver.org/services/air-quality-climate-action/air-quality-data-and-advisories">Metro Vancouver’s Air Quality Data and Advisories</a> and <a href="https://gis.metrovancouver.org/maps/Air">AirMap.ca</a>. For subscription to air quality advisories and bulletins, use <a href="https://metrovancouver.org/services/air-quality-climate-action/mailing-list">Metro Vancouver’s Air Quality and Climate Change Mailing List</a>.</li>
+<li>Tempered Element Oscillating Microbalance (TEOM) (PM2.5 and PM10)</li>
+<li>Beta AttenuatedMonitoring (BAM) (PM2.5)</li>
+<li>UV Photometry (ozone)</li>
+<li>Chemiluminscence (nitrogen dioxide)</li>
+<li>UV Fluorescence (sulphur dioxide)</li>
+<li>Nondispersive Infrared Photometry (carbon monoxide)</li>
+<li>Pulsed Fluorescence (total reduced sulphur or H2S)</li>
 </ul>
-</section>
-<section id="about-air-quality-advisories" class="level2">
-<h2 class="anchored" data-anchor-id="about-air-quality-advisories">About air quality advisories</h2>
-<p>An air quality advisory is issued when pollutant concentrations approach or exceed predetermined limits, or when degraded-air-quality episodes are expected to continue or worsen.</p>
-<p>Advisories are issued in order to:</p>
+<p></p></div></details><p></p>
+<p></p><details class="bcds-disclosure" open=""><summary class="">Accordion Example - Initially Open</summary><div class="panel"> In continuous monitoring, air quality is constantly measured by drawing air in through various tubes that are connected to data loggers that automatically transmit the data to a central MOE database. The data is automatically checked for errors and is published hourly on the Current Air Data page, where it is available to the public, and used to calculate the Air Quality Health Index (AQHI).<p></p>
+<p>This data is useful for providing real-time information and for calculating indexes. However, until it goes through the MOE’s data validation process, it is still considered raw data and should not be used for comparing to air quality guidelines or objectives.</p>
+<p>The province uses a wide range of automated instruments to collect and measure air quality data, including the following (with instrument acronyms and parameters measured in parenthesis):</p>
 <ul>
-<li>inform about degraded air quality</li>
-<li>help people make informed choices about reducing their exposure to elevated concentrations of air pollutants</li>
-<li>affect emission reduction actions (such as a limit on industrial emissions or wood stove use)</li>
-<li>provide vulnerable individuals and the general public with health advice developed by BC health agencies</li>
+<li>Tempered Element Oscillating Microbalance (TEOM) (PM2.5 and PM10)</li>
+<li>Beta AttenuatedMonitoring (BAM) (PM2.5)</li>
+<li>UV Photometry (ozone)</li>
+<li>Chemiluminscence (nitrogen dioxide)</li>
+<li>UV Fluorescence (sulphur dioxide)</li>
+<li>Nondispersive Infrared Photometry (carbon monoxide)</li>
+<li>Pulsed Fluorescence (total reduced sulphur or H2S)</li>
 </ul>
+<p></p></div></details><p></p>
+<p></p><details class="bcds-disclosure" open=""><summary class="h3">Accordion Example - Initially Open, Header</summary><div class="panel"> In continuous monitoring, air quality is constantly measured by drawing air in through various tubes that are connected to data loggers that automatically transmit the data to a central MOE database. The data is automatically checked for errors and is published hourly on the Current Air Data page, where it is available to the public, and used to calculate the Air Quality Health Index (AQHI).<p></p>
+<p>This data is useful for providing real-time information and for calculating indexes. However, until it goes through the MOE’s data validation process, it is still considered raw data and should not be used for comparing to air quality guidelines or objectives.</p>
+<p>The province uses a wide range of automated instruments to collect and measure air quality data, including the following (with instrument acronyms and parameters measured in parenthesis):</p>
+<ul>
+<li>Tempered Element Oscillating Microbalance (TEOM) (PM2.5 and PM10)</li>
+<li>Beta AttenuatedMonitoring (BAM) (PM2.5)</li>
+<li>UV Photometry (ozone)</li>
+<li>Chemiluminscence (nitrogen dioxide)</li>
+<li>UV Fluorescence (sulphur dioxide)</li>
+<li>Nondispersive Infrared Photometry (carbon monoxide)</li>
+<li>Pulsed Fluorescence (total reduced sulphur or H2S)</li>
+</ul>
+<p></p></div></details><p></p>
+<p></p><details class="bcds-disclosure"><summary class="h3">Accordion Example - Header</summary><div class="panel"> In continuous monitoring, air quality is constantly measured by drawing air in through various tubes that are connected to data loggers that automatically transmit the data to a central MOE database. The data is automatically checked for errors and is published hourly on the Current Air Data page, where it is available to the public, and used to calculate the Air Quality Health Index (AQHI).<p></p>
+<p>This data is useful for providing real-time information and for calculating indexes. However, until it goes through the MOE’s data validation process, it is still considered raw data and should not be used for comparing to air quality guidelines or objectives.</p>
+<p>The province uses a wide range of automated instruments to collect and measure air quality data, including the following (with instrument acronyms and parameters measured in parenthesis):</p>
+<ul>
+<li>Tempered Element Oscillating Microbalance (TEOM) (PM2.5 and PM10)</li>
+<li>Beta AttenuatedMonitoring (BAM) (PM2.5)</li>
+<li>UV Photometry (ozone)</li>
+<li>Chemiluminscence (nitrogen dioxide)</li>
+<li>UV Fluorescence (sulphur dioxide)</li>
+<li>Nondispersive Infrared Photometry (carbon monoxide)</li>
+<li>Pulsed Fluorescence (total reduced sulphur or H2S)</li>
+</ul>
+<p></p></div></details><p></p>
 </section>
-<section id="about-smoky-skies-bulletins" class="level2">
-<h2 class="anchored" data-anchor-id="about-smoky-skies-bulletins">About Smoky Skies Bulletins</h2>
-<p>The Smoky Skies Bulletin is a special type of public advisory to communicate the rapidly changing nature of wildfire smoke. It is issued when areas of the province are being impacted or have reasonable potential to be impacted by wildfire smoke within 24 to 48 hours. These bulletins are based on available pollutant concentrations information, satellite information, smoke forecast models and visual observations, and are not intended to manage local emission sources.</p>
-
+<section id="cards" class="level2">
+<h2 class="anchored" data-anchor-id="cards">Cards</h2>
+<p></p><div class="bcds-card "><h5 class="bcds-card-title anchored">Titled Card</h5><div class="bcds-card-body"> card contents<p></p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-card danger"><h5 class="bcds-card-title anchored">Red Card</h5><div class="bcds-card-body"> danger card contents<p></p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-card danger"><h5 class="bcds-card-title anchored">Red Card</h5><i class="card-icon bi bi-exclamation-octagon danger"></i><div class="bcds-card-body"> danger card contents, icon<p></p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-card success"><h5 class="bcds-card-title anchored">Success Card</h5><div class="bcds-card-body"> success card contents<p></p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-card success"><h5 class="bcds-card-title anchored">Success Card</h5><i class="card-icon bi bi-check-circle success"></i><div class="bcds-card-body"> success card contents, icons<p></p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-card info"><h5 class="bcds-card-title anchored">Info Card</h5><div class="bcds-card-body"> info card contents<p></p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-card info"><h5 class="bcds-card-title anchored">Info Card</h5><i class="card-icon bi bi-info-circle info"></i><div class="bcds-card-body"> info card contents, icons enabled<p></p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-card warning"><h5 class="bcds-card-title anchored">Warning Card</h5><div class="bcds-card-body"> warning card contents<p></p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-card warning"><h5 class="bcds-card-title anchored">Warning Card</h5><i class="card-icon bi bi-exclamation-triangle warning"></i><div class="bcds-card-body"> warning card contents, icons enabled<p></p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-card info"><img src="site_libs/quarto-contrib/quarto-project/bcds/assets/BCID_V_rgb_pos.png" class="bcds-card-image" alt="logo"><h5 class="bcds-card-title anchored">Info Image Card</h5><div class="bcds-card-body"><p></p>
+<p>info with logo card contents</p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-card info"><img src="site_libs/quarto-contrib/quarto-project/bcds/assets/BCID_V_rgb_pos.png" class="bcds-card-image" alt="logo"><h5 class="bcds-card-title anchored">Info Image Card</h5><div class="bcds-card-body"><p></p>
+<p>info with logo card contents</p>
+<p><a href="https://github.com/bcgov/nr-epd-aq-statements/">Link Example</a></p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-card warning"><img src="site_libs/quarto-contrib/quarto-project/bcds/assets/BCID_V_rgb_pos.png" class="bcds-card-image" alt="logo"><h5 class="bcds-card-title anchored">Warning Image Card</h5><i class="card-icon bi bi-exclamation-triangle warning"></i><div class="bcds-card-body"><p></p>
+<p>Warning with logo card contents and icons</p>
+<p><a href="https://github.com/bcgov/nr-epd-aq-statements/">Link Example</a></p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-card "><img src="site_libs/quarto-contrib/quarto-project/bcds/assets/BCID_V_rgb_pos.png" class="bcds-card-image" alt="logo"><div class="bcds-card-body"><p></p>
+<p>untitled with logo card contents</p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-card danger"><div class="bcds-card-body"> untitled danger card with logo card contents<p></p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-card "><div class="bcds-card-body"> untitled card contents<p></p>
+<p></p></div></div><p></p>
+</section>
+<section id="inline-alerts" class="level2">
+<h2 class="anchored" data-anchor-id="inline-alerts">Inline Alerts</h2>
+<p></p><div class="bcds-Inline-Alert info"><i class="bcds-Inline-Alert--icon bi bi-info-circle info"></i><div class="bcds-Inline-Alert--container"><span class="title">Titled Alert</span> Alert contents<p></p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-Inline-Alert info"><i class="bcds-Inline-Alert--icon bi bi-info-circle info"></i><div class="bcds-Inline-Alert--container"><span class="title"></span> Untitled alert contents<p></p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-Inline-Alert warning"><i class="bcds-Inline-Alert--icon bi bi-exclamation-triangle warning"></i><div class="bcds-Inline-Alert--container"><span class="title"></span> Untitled alert contents, warning<p></p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-Inline-Alert warning"><i class="bcds-Inline-Alert--icon bi bi-exclamation-triangle warning"></i><div class="bcds-Inline-Alert--container"><span class="title"></span> Untitled alert contents, warning<p></p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-Inline-Alert danger"><i class="bcds-Inline-Alert--icon bi bi-exclamation-octagon danger"></i><div class="bcds-Inline-Alert--container"><span class="title"></span> Untitled alert contents, danger<p></p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-Inline-Alert success"><i class="bcds-Inline-Alert--icon bi bi-check-circle success"></i><div class="bcds-Inline-Alert--container"><span class="title"></span> Untitled alert contents, success<p></p>
+<p></p></div></div><p></p>
+<p></p><div class="bcds-Inline-Alert info"><i class="bcds-Inline-Alert--icon bi bi-info-circle info"></i><div class="bcds-Inline-Alert--container"><span class="title"></span> Untitled alert contents, info (default)<p></p>
+<p></p></div></div><p></p>
 
 
 </section>
