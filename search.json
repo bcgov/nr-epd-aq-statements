@@ -1,144 +1,5 @@
 [
   {
-    "objectID": "statements.html",
-    "href": "statements.html",
-    "title": "Historical advisories",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Advisory Type\n        \n         \n          Contact\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nLocation\n\n\nAdvisory Type\n\n\nDate\n\n\nCategories\n\n\nContact\n\n\n\n\n\n\n \n\n\nSmoky Skies Bulletin\n\n\nFeb 6, 2025\n\n\n \n\n\n \n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Issued advisories",
-      "Air Quality Data",
-      "Historical advisories"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Air quality advisories",
-    "section": "",
-    "text": "There are currently no air quality advisories in effect.\n\n\nNo matching items",
-    "crumbs": [
-      "Issued advisories",
-      "Air Quality Data",
-      "Air advisories"
-    ]
-  },
-  {
-    "objectID": "index.html#issued-advisories",
-    "href": "index.html#issued-advisories",
-    "title": "Air quality advisories",
-    "section": "",
-    "text": "There are currently no air quality advisories in effect.\n\n\nNo matching items",
-    "crumbs": [
-      "Issued advisories",
-      "Air Quality Data",
-      "Air advisories"
-    ]
-  },
-  {
-    "objectID": "index.html#current-smoky-skies-bulletin-map",
-    "href": "index.html#current-smoky-skies-bulletin-map",
-    "title": "Air quality advisories",
-    "section": "Current Smoky Skies Bulletin map",
-    "text": "Current Smoky Skies Bulletin map\n\n\n    There are currently no smoky skies bulletins in effect.\n\n\nNo matching items",
-    "crumbs": [
-      "Issued advisories",
-      "Air Quality Data",
-      "Air advisories"
-    ]
-  },
-  {
-    "objectID": "index.html#latest-updates",
-    "href": "index.html#latest-updates",
-    "title": "Air quality advisories",
-    "section": "Latest updates",
-    "text": "Latest updates\nFor the latest updates:\n\nSubscribe to the Air Quality Subscription Service\nOutside regular business hours, visit Environment and Climate Change Canada’s Public Weather Alerts for B.C.\nFor Metro Vancouver and the Fraser Valley Regional District, see Metro Vancouver’s Air Quality Data and Advisories and AirMap.ca. For subscription to air quality advisories and bulletins, use Metro Vancouver’s Air Quality and Climate Change Mailing List.",
-    "crumbs": [
-      "Issued advisories",
-      "Air Quality Data",
-      "Air advisories"
-    ]
-  },
-  {
-    "objectID": "index.html#about-air-quality-advisories",
-    "href": "index.html#about-air-quality-advisories",
-    "title": "Air quality advisories",
-    "section": "About air quality advisories",
-    "text": "About air quality advisories\nAn air quality advisory is issued when pollutant concentrations approach or exceed predetermined limits, or when degraded-air-quality episodes are expected to continue or worsen.\nAdvisories are issued in order to:\n\ninform about degraded air quality\nhelp people make informed choices about reducing their exposure to elevated concentrations of air pollutants\naffect emission reduction actions (such as a limit on industrial emissions or wood stove use)\nprovide vulnerable individuals and the general public with health advice developed by BC health agencies",
-    "crumbs": [
-      "Issued advisories",
-      "Air Quality Data",
-      "Air advisories"
-    ]
-  },
-  {
-    "objectID": "index.html#about-smoky-skies-bulletins",
-    "href": "index.html#about-smoky-skies-bulletins",
-    "title": "Air quality advisories",
-    "section": "About Smoky Skies Bulletins",
-    "text": "About Smoky Skies Bulletins\nThe Smoky Skies Bulletin is a special type of public advisory to communicate the rapidly changing nature of wildfire smoke. It is issued when areas of the province are being impacted or have reasonable potential to be impacted by wildfire smoke within 24 to 48 hours. These bulletins are based on available pollutant concentrations information, satellite information, smoke forecast models and visual observations, and are not intended to manage local emission sources.",
-    "crumbs": [
-      "Issued advisories",
-      "Air Quality Data",
-      "Air advisories"
-    ]
-  },
-  {
-    "objectID": "shortcode_demos.html",
-    "href": "shortcode_demos.html",
-    "title": "Shortcode Demonstrations",
-    "section": "",
-    "text": "Note\n\n\n\nQuarto default callout\n\n\n\nBCDS callout - sample text, defaults\n\nTitled Callout\nBCDS callout - sample text, default variant\n\n BCDS callout - sample text, blue variant\n\nTitled, variant BCDS callout - sample text, light blue variant, with title",
-    "crumbs": [
-      "Issued advisories",
-      "BCDS Shortcode Demos"
-    ]
-  },
-  {
-    "objectID": "shortcode_demos.html#callouts",
-    "href": "shortcode_demos.html#callouts",
-    "title": "Shortcode Demonstrations",
-    "section": "",
-    "text": "Note\n\n\n\nQuarto default callout\n\n\n\nBCDS callout - sample text, defaults\n\nTitled Callout\nBCDS callout - sample text, default variant\n\n BCDS callout - sample text, blue variant\n\nTitled, variant BCDS callout - sample text, light blue variant, with title",
-    "crumbs": [
-      "Issued advisories",
-      "BCDS Shortcode Demos"
-    ]
-  },
-  {
-    "objectID": "shortcode_demos.html#accordions",
-    "href": "shortcode_demos.html#accordions",
-    "title": "Shortcode Demonstrations",
-    "section": "Accordions",
-    "text": "Accordions\nExpand AllCollapse All\nAccordion Example - Continuous Monitoring\nIn continuous monitoring, air quality is constantly measured by drawing air in through various tubes that are connected to data loggers that automatically transmit the data to a central MOE database. The data is automatically checked for errors and is published hourly on the Current Air Data page, where it is available to the public, and used to calculate the Air Quality Health Index (AQHI).\nThis data is useful for providing real-time information and for calculating indexes. However, until it goes through the MOE’s data validation process, it is still considered raw data and should not be used for comparing to air quality guidelines or objectives.\nThe province uses a wide range of automated instruments to collect and measure air quality data, including the following (with instrument acronyms and parameters measured in parenthesis):\n\nTempered Element Oscillating Microbalance (TEOM) (PM2.5 and PM10)\nBeta AttenuatedMonitoring (BAM) (PM2.5)\nUV Photometry (ozone)\nChemiluminscence (nitrogen dioxide)\nUV Fluorescence (sulphur dioxide)\nNondispersive Infrared Photometry (carbon monoxide)\nPulsed Fluorescence (total reduced sulphur or H2S)\n\n\nAccordion Example - Initially Open In continuous monitoring, air quality is constantly measured by drawing air in through various tubes that are connected to data loggers that automatically transmit the data to a central MOE database. The data is automatically checked for errors and is published hourly on the Current Air Data page, where it is available to the public, and used to calculate the Air Quality Health Index (AQHI).\nThis data is useful for providing real-time information and for calculating indexes. However, until it goes through the MOE’s data validation process, it is still considered raw data and should not be used for comparing to air quality guidelines or objectives.\nThe province uses a wide range of automated instruments to collect and measure air quality data, including the following (with instrument acronyms and parameters measured in parenthesis):\n\nTempered Element Oscillating Microbalance (TEOM) (PM2.5 and PM10)\nBeta AttenuatedMonitoring (BAM) (PM2.5)\nUV Photometry (ozone)\nChemiluminscence (nitrogen dioxide)\nUV Fluorescence (sulphur dioxide)\nNondispersive Infrared Photometry (carbon monoxide)\nPulsed Fluorescence (total reduced sulphur or H2S)\n\n\nAccordion Example - Initially Open, Header In continuous monitoring, air quality is constantly measured by drawing air in through various tubes that are connected to data loggers that automatically transmit the data to a central MOE database. The data is automatically checked for errors and is published hourly on the Current Air Data page, where it is available to the public, and used to calculate the Air Quality Health Index (AQHI).\nThis data is useful for providing real-time information and for calculating indexes. However, until it goes through the MOE’s data validation process, it is still considered raw data and should not be used for comparing to air quality guidelines or objectives.\nThe province uses a wide range of automated instruments to collect and measure air quality data, including the following (with instrument acronyms and parameters measured in parenthesis):\n\nTempered Element Oscillating Microbalance (TEOM) (PM2.5 and PM10)\nBeta AttenuatedMonitoring (BAM) (PM2.5)\nUV Photometry (ozone)\nChemiluminscence (nitrogen dioxide)\nUV Fluorescence (sulphur dioxide)\nNondispersive Infrared Photometry (carbon monoxide)\nPulsed Fluorescence (total reduced sulphur or H2S)\n\n\nAccordion Example - Header In continuous monitoring, air quality is constantly measured by drawing air in through various tubes that are connected to data loggers that automatically transmit the data to a central MOE database. The data is automatically checked for errors and is published hourly on the Current Air Data page, where it is available to the public, and used to calculate the Air Quality Health Index (AQHI).\nThis data is useful for providing real-time information and for calculating indexes. However, until it goes through the MOE’s data validation process, it is still considered raw data and should not be used for comparing to air quality guidelines or objectives.\nThe province uses a wide range of automated instruments to collect and measure air quality data, including the following (with instrument acronyms and parameters measured in parenthesis):\n\nTempered Element Oscillating Microbalance (TEOM) (PM2.5 and PM10)\nBeta AttenuatedMonitoring (BAM) (PM2.5)\nUV Photometry (ozone)\nChemiluminscence (nitrogen dioxide)\nUV Fluorescence (sulphur dioxide)\nNondispersive Infrared Photometry (carbon monoxide)\nPulsed Fluorescence (total reduced sulphur or H2S)",
-    "crumbs": [
-      "Issued advisories",
-      "BCDS Shortcode Demos"
-    ]
-  },
-  {
-    "objectID": "shortcode_demos.html#cards",
-    "href": "shortcode_demos.html#cards",
-    "title": "Shortcode Demonstrations",
-    "section": "Cards",
-    "text": "Cards\nTitled Card card contents\n\nRed Card danger card contents\n\nRed Card danger card contents, icon\n\nSuccess Card success card contents\n\nSuccess Card success card contents, icons\n\nInfo Card info card contents\n\nInfo Card info card contents, icons enabled\n\nWarning Card warning card contents\n\nWarning Card warning card contents, icons enabled\n\nInfo Image Card\ninfo with logo card contents\n\nInfo Image Card\ninfo with logo card contents\nLink Example\n\nWarning Image Card\nWarning with logo card contents and icons\nLink Example\n\n\nuntitled with logo card contents\n\n untitled danger card with logo card contents\n\n untitled card contents",
-    "crumbs": [
-      "Issued advisories",
-      "BCDS Shortcode Demos"
-    ]
-  },
-  {
-    "objectID": "shortcode_demos.html#inline-alerts",
-    "href": "shortcode_demos.html#inline-alerts",
-    "title": "Shortcode Demonstrations",
-    "section": "Inline Alerts",
-    "text": "Inline Alerts\nTitled Alert Alert contents\n\n Untitled alert contents\n\n Untitled alert contents, warning\n\n Untitled alert contents, warning\n\n Untitled alert contents, danger\n\n Untitled alert contents, success\n\n Untitled alert contents, info (default)",
-    "crumbs": [
-      "Issued advisories",
-      "BCDS Shortcode Demos"
-    ]
-  },
-  {
     "objectID": "measuring.html",
     "href": "measuring.html",
     "title": "Measuring air quality",
@@ -284,6 +145,145 @@
       "2025 02",
       "06",
       "Smoky Skies Bulletin"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Air quality advisories",
+    "section": "",
+    "text": "There are currently no air quality advisories in effect.\n\n\nNo matching items",
+    "crumbs": [
+      "Issued advisories",
+      "Air Quality Data",
+      "Air advisories"
+    ]
+  },
+  {
+    "objectID": "index.html#issued-advisories",
+    "href": "index.html#issued-advisories",
+    "title": "Air quality advisories",
+    "section": "",
+    "text": "There are currently no air quality advisories in effect.\n\n\nNo matching items",
+    "crumbs": [
+      "Issued advisories",
+      "Air Quality Data",
+      "Air advisories"
+    ]
+  },
+  {
+    "objectID": "index.html#current-smoky-skies-bulletin-map",
+    "href": "index.html#current-smoky-skies-bulletin-map",
+    "title": "Air quality advisories",
+    "section": "Current Smoky Skies Bulletin map",
+    "text": "Current Smoky Skies Bulletin map\n\n\n    There are currently no smoky skies bulletins in effect.\n\n\nNo matching items",
+    "crumbs": [
+      "Issued advisories",
+      "Air Quality Data",
+      "Air advisories"
+    ]
+  },
+  {
+    "objectID": "index.html#latest-updates",
+    "href": "index.html#latest-updates",
+    "title": "Air quality advisories",
+    "section": "Latest updates",
+    "text": "Latest updates\nFor the latest updates:\n\nSubscribe to the Air Quality Subscription Service\nOutside regular business hours, visit Environment and Climate Change Canada’s Public Weather Alerts for B.C.\nFor Metro Vancouver and the Fraser Valley Regional District, see Metro Vancouver’s Air Quality Data and Advisories and AirMap.ca. For subscription to air quality advisories and bulletins, use Metro Vancouver’s Air Quality and Climate Change Mailing List.",
+    "crumbs": [
+      "Issued advisories",
+      "Air Quality Data",
+      "Air advisories"
+    ]
+  },
+  {
+    "objectID": "index.html#about-air-quality-advisories",
+    "href": "index.html#about-air-quality-advisories",
+    "title": "Air quality advisories",
+    "section": "About air quality advisories",
+    "text": "About air quality advisories\nAn air quality advisory is issued when pollutant concentrations approach or exceed predetermined limits, or when degraded-air-quality episodes are expected to continue or worsen.\nAdvisories are issued in order to:\n\ninform about degraded air quality\nhelp people make informed choices about reducing their exposure to elevated concentrations of air pollutants\naffect emission reduction actions (such as a limit on industrial emissions or wood stove use)\nprovide vulnerable individuals and the general public with health advice developed by BC health agencies",
+    "crumbs": [
+      "Issued advisories",
+      "Air Quality Data",
+      "Air advisories"
+    ]
+  },
+  {
+    "objectID": "index.html#about-smoky-skies-bulletins",
+    "href": "index.html#about-smoky-skies-bulletins",
+    "title": "Air quality advisories",
+    "section": "About Smoky Skies Bulletins",
+    "text": "About Smoky Skies Bulletins\nThe Smoky Skies Bulletin is a special type of public advisory to communicate the rapidly changing nature of wildfire smoke. It is issued when areas of the province are being impacted or have reasonable potential to be impacted by wildfire smoke within 24 to 48 hours. These bulletins are based on available pollutant concentrations information, satellite information, smoke forecast models and visual observations, and are not intended to manage local emission sources.",
+    "crumbs": [
+      "Issued advisories",
+      "Air Quality Data",
+      "Air advisories"
+    ]
+  },
+  {
+    "objectID": "shortcode_demos.html",
+    "href": "shortcode_demos.html",
+    "title": "Shortcode Demonstrations",
+    "section": "",
+    "text": "Note\n\n\n\nQuarto default callout\n\n\n\nBCDS callout - sample text, defaults\n\nTitled Callout\nBCDS callout - sample text, default variant\n\n BCDS callout - sample text, blue variant\n\nTitled, variant BCDS callout - sample text, light blue variant, with title",
+    "crumbs": [
+      "Issued advisories",
+      "BCDS Shortcode Demos"
+    ]
+  },
+  {
+    "objectID": "shortcode_demos.html#callouts",
+    "href": "shortcode_demos.html#callouts",
+    "title": "Shortcode Demonstrations",
+    "section": "",
+    "text": "Note\n\n\n\nQuarto default callout\n\n\n\nBCDS callout - sample text, defaults\n\nTitled Callout\nBCDS callout - sample text, default variant\n\n BCDS callout - sample text, blue variant\n\nTitled, variant BCDS callout - sample text, light blue variant, with title",
+    "crumbs": [
+      "Issued advisories",
+      "BCDS Shortcode Demos"
+    ]
+  },
+  {
+    "objectID": "shortcode_demos.html#accordions",
+    "href": "shortcode_demos.html#accordions",
+    "title": "Shortcode Demonstrations",
+    "section": "Accordions",
+    "text": "Accordions\nExpand AllCollapse All\nAccordion Example - Continuous Monitoring\nIn continuous monitoring, air quality is constantly measured by drawing air in through various tubes that are connected to data loggers that automatically transmit the data to a central MOE database. The data is automatically checked for errors and is published hourly on the Current Air Data page, where it is available to the public, and used to calculate the Air Quality Health Index (AQHI).\nThis data is useful for providing real-time information and for calculating indexes. However, until it goes through the MOE’s data validation process, it is still considered raw data and should not be used for comparing to air quality guidelines or objectives.\nThe province uses a wide range of automated instruments to collect and measure air quality data, including the following (with instrument acronyms and parameters measured in parenthesis):\n\nTempered Element Oscillating Microbalance (TEOM) (PM2.5 and PM10)\nBeta AttenuatedMonitoring (BAM) (PM2.5)\nUV Photometry (ozone)\nChemiluminscence (nitrogen dioxide)\nUV Fluorescence (sulphur dioxide)\nNondispersive Infrared Photometry (carbon monoxide)\nPulsed Fluorescence (total reduced sulphur or H2S)\n\n\nAccordion Example - Initially Open In continuous monitoring, air quality is constantly measured by drawing air in through various tubes that are connected to data loggers that automatically transmit the data to a central MOE database. The data is automatically checked for errors and is published hourly on the Current Air Data page, where it is available to the public, and used to calculate the Air Quality Health Index (AQHI).\nThis data is useful for providing real-time information and for calculating indexes. However, until it goes through the MOE’s data validation process, it is still considered raw data and should not be used for comparing to air quality guidelines or objectives.\nThe province uses a wide range of automated instruments to collect and measure air quality data, including the following (with instrument acronyms and parameters measured in parenthesis):\n\nTempered Element Oscillating Microbalance (TEOM) (PM2.5 and PM10)\nBeta AttenuatedMonitoring (BAM) (PM2.5)\nUV Photometry (ozone)\nChemiluminscence (nitrogen dioxide)\nUV Fluorescence (sulphur dioxide)\nNondispersive Infrared Photometry (carbon monoxide)\nPulsed Fluorescence (total reduced sulphur or H2S)\n\n\nAccordion Example - Initially Open, Header In continuous monitoring, air quality is constantly measured by drawing air in through various tubes that are connected to data loggers that automatically transmit the data to a central MOE database. The data is automatically checked for errors and is published hourly on the Current Air Data page, where it is available to the public, and used to calculate the Air Quality Health Index (AQHI).\nThis data is useful for providing real-time information and for calculating indexes. However, until it goes through the MOE’s data validation process, it is still considered raw data and should not be used for comparing to air quality guidelines or objectives.\nThe province uses a wide range of automated instruments to collect and measure air quality data, including the following (with instrument acronyms and parameters measured in parenthesis):\n\nTempered Element Oscillating Microbalance (TEOM) (PM2.5 and PM10)\nBeta AttenuatedMonitoring (BAM) (PM2.5)\nUV Photometry (ozone)\nChemiluminscence (nitrogen dioxide)\nUV Fluorescence (sulphur dioxide)\nNondispersive Infrared Photometry (carbon monoxide)\nPulsed Fluorescence (total reduced sulphur or H2S)\n\n\nAccordion Example - Header In continuous monitoring, air quality is constantly measured by drawing air in through various tubes that are connected to data loggers that automatically transmit the data to a central MOE database. The data is automatically checked for errors and is published hourly on the Current Air Data page, where it is available to the public, and used to calculate the Air Quality Health Index (AQHI).\nThis data is useful for providing real-time information and for calculating indexes. However, until it goes through the MOE’s data validation process, it is still considered raw data and should not be used for comparing to air quality guidelines or objectives.\nThe province uses a wide range of automated instruments to collect and measure air quality data, including the following (with instrument acronyms and parameters measured in parenthesis):\n\nTempered Element Oscillating Microbalance (TEOM) (PM2.5 and PM10)\nBeta AttenuatedMonitoring (BAM) (PM2.5)\nUV Photometry (ozone)\nChemiluminscence (nitrogen dioxide)\nUV Fluorescence (sulphur dioxide)\nNondispersive Infrared Photometry (carbon monoxide)\nPulsed Fluorescence (total reduced sulphur or H2S)",
+    "crumbs": [
+      "Issued advisories",
+      "BCDS Shortcode Demos"
+    ]
+  },
+  {
+    "objectID": "shortcode_demos.html#cards",
+    "href": "shortcode_demos.html#cards",
+    "title": "Shortcode Demonstrations",
+    "section": "Cards",
+    "text": "Cards\nTitled Card card contents\n\nRed Card danger card contents\n\nRed Card danger card contents, icon\n\nSuccess Card success card contents\n\nSuccess Card success card contents, icons\n\nInfo Card info card contents\n\nInfo Card info card contents, icons enabled\n\nWarning Card warning card contents\n\nWarning Card warning card contents, icons enabled\n\nInfo Image Card\ninfo with logo card contents\n\nInfo Image Card\ninfo with logo card contents\nLink Example\n\nWarning Image Card\nWarning with logo card contents and icons\nLink Example\n\n\nuntitled with logo card contents\n\n untitled danger card with logo card contents\n\n untitled card contents",
+    "crumbs": [
+      "Issued advisories",
+      "BCDS Shortcode Demos"
+    ]
+  },
+  {
+    "objectID": "shortcode_demos.html#inline-alerts",
+    "href": "shortcode_demos.html#inline-alerts",
+    "title": "Shortcode Demonstrations",
+    "section": "Inline Alerts",
+    "text": "Inline Alerts\nTitled Alert Alert contents\n\n Untitled alert contents\n\n Untitled alert contents, warning\n\n Untitled alert contents, warning\n\n Untitled alert contents, danger\n\n Untitled alert contents, success\n\n Untitled alert contents, info (default)",
+    "crumbs": [
+      "Issued advisories",
+      "BCDS Shortcode Demos"
+    ]
+  },
+  {
+    "objectID": "statements.html",
+    "href": "statements.html",
+    "title": "Historical advisories",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Advisory Type\n        \n         \n          Contact\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nLocation\n\n\nAdvisory Type\n\n\nDate\n\n\nCategories\n\n\nContact\n\n\n\n\n\n\n \n\n\nSmoky Skies Bulletin\n\n\nFeb 6, 2025\n\n\n \n\n\n \n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Issued advisories",
+      "Air Quality Data",
+      "Historical advisories"
     ]
   }
 ]
