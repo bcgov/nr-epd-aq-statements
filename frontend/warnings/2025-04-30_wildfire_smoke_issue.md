@@ -34,11 +34,11 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 ::: {layout-ncol= 3 layout-valign="bottom"}
 
 ![Government of British Columbia
-logo](./assets/logo_BCID_V_RGB_pos.png)\
+logo](/assets/logo_BCID_V_RGB_pos.png)\
 
-![First Nations Health Authority logo](./assets/logo_FNHA.png)\
+![First Nations Health Authority logo](/assets/logo_FNHA.png)\
 
-![Interior Health Authority logo](./assets/logo_IH.png)\
+![Interior Health Authority logo](/assets/logo_IH.png)\
 
 :::
 
