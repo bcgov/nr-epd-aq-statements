@@ -1,12 +1,12 @@
 ---
 author:
-- Donna Haga
+- Gail Roth
 authors:
-- Donna Haga
-customMessage: test
+- Gail Roth
+customMessage: Always be testing.
 date: 2025-05-01
 ice: Issue
-location: test
+location: Multiple regions in B.C.
 params:
   customMessage: "`Custom message.`"
   ice: Issue
@@ -34,7 +34,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 <!-- Logo header, the layout-col should be set based on number of logos including FHNA and BCGov-->
 <!-- the trailing slash means the text in square brackets is alt text -->
 
-::: {layout-ncol= 3 layout-valign="bottom"}
+::: {layout-ncol= 5 layout-valign="bottom"}
 
 ![Government of British Columbia logo](/assets/logo_BCID_V_RGB_pos.png)\
 
@@ -42,12 +42,16 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ![Interior Health Authority logo](/assets/logo_IH.png)\
 
+![Vancouver Island Health Authority logo](/assets/logo_VIH.png)\
+
+![Northern Health Authority logo](/assets/logo_NH.png)\
+
 :::
 
 The Regions of BC highlighted on the map are being impacted or are
 likely to be impacted by wildfire smoke over the next 24-48 hours.
 
-test
+Always be testing.
 
 The next update will be available on May 02, 2025.
 
@@ -58,7 +62,7 @@ The Air Quality Warning for wildfire smoke can be accessed online at
 provided at the end of this page. This Air Quality Warning excludes the
 area managed by Metro Vancouver. Refer to the More Information section
 for a link to air quality notifications issued by Metro
-Vancouver.](2025-05-01_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for May 01, 2025: East Kootenay (North), East Kootenay (South), Elk Valley."
+Vancouver.](2025-05-01_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for May 01, 2025: Cariboo (South), Comox Valley, Nicola, Prince George, West Vancouver Island."
 width="100%" height="600px"}
 
 ## Be informed
@@ -177,21 +181,17 @@ advisories](https://metrovancouver.org/services/air-quality-climate-action/air-q
 health:**
 
 ::: bcds-card-wrapper
-{{< card_start title="BC Centre for Disease Control" >}} Fact sheets on
-wildfire smoke and its health impacts.
+{{< card_start title="BC Centre for Disease Control" logo="/assets/logo_BCCDC.png" >}}
+Fact sheets on wildfire smoke and its health impacts.
 
 [Wildfire
 smoke](http://www.bccdc.ca/health-info/prevention-public-health/wildfire-smoke)
-{{< card_end >}}
-
-{{< card_start title="Interior Health Authority" logo="/assets/logo_IH_horizontal.png" >}}
+{{< card_end >}}{{< card_start title="Interior Health Authority" logo="/assets/logo_IH_horizontal.png" >}}
 Steps to prepare and manage wildfire-related issues.
 
 [Wildfire public
 information](https://www.interiorhealth.ca/health-and-wellness/natural-disasters-and-emergencies/wildfires)
-{{< card_end >}}
-
-{{< card_start title="First Nations Health Authority" logo="/assets/logo_FNHA_horizontal.png" >}}
+{{< card_end >}}{{< card_start title="First Nations Health Authority" logo="/assets/logo_FNHA_horizontal.png" >}}
 Information and resources to help you prepare.
 
 [Wildfire smoke health
@@ -217,25 +217,41 @@ FAQ](https://www.worksafebc.com/en/resources/health-safety/information-sheets/wi
 Warning for wildfire smoke:**
 
 {{< card_start width="wide" >}}
+
+Gail Roth`<br />`{=html}Senior Air Quality
+Meteorologist`<br />`{=html}Ministry of Environment and
+Parks`<br />`{=html}250-645-9358
+
 {{< card_end >}}
 
 **Media questions regarding health implications of wildfires:**
 
-{{< card_start  width="wide" >}} First Nations Health
-Authority`<br />`{=html}Environmental Public Health Services or Main
-FNHA Line: 604-693-6500 `<br />`{=html}After Hours:
+{{< card_start  width="wide" >}}
+
+First Nations Health Authority`<br />`{=html}Environmental Public Health
+Services or Main FNHA Line: 604-693-6500 `<br />`{=html}After Hours:
 1-844-666-0711`<br />`{=html}Email:
 Ephs.afterhours@fnha.ca`<br />`{=html}Media line:
-604-831-4898`<br /><br />`{=html}``{=html}Interior Health
+604-831-4898`<br /><br />`{=html}Interior Health
 Authority`<br />`{=html}Media line: 1-844-469-7077`<br />`{=html}Email:
-media@interiorhealth.ca`<br />`{=html} {{< card_end >}}
+media@interiorhealth.ca`<br /><br />`{=html}Northern Health
+Authority`<br />`{=html}Media Line:
+1-877-961-7724`<br /><br />`{=html}Vancouver Island Health
+Authority`<br />`{=html}Dominic Abassi: 250-755-7966
+(Dominic.abassi@viha.ca)`<br />`{=html}Andrew Leyne: 250-370-8908
+(Andrew.leyne@viha.ca)`<br />`{=html}After-hours media line:
+250-716-7750`<br />`{=html}
 
+{{< card_end >}}
 {{< accordion_start title="Regions included under the Air Quality Warning - Wildfire Smoke" headerClass="h2" >}}
 
--   East Kootenay (North): includes Edgewater, Invermere, Canal Flats
-    and Skookumchuck.
--   East Kootenay (South): includes Kimberley, Cranbrook, Yahk, Moyie,
-    Wasa Lake Provincial Park, Jaffray, Grasmere and Roosville.
--   Elk Valley: includes Elko, Fernie, Sparwood and Elkford.
+-   Cariboo (South): includes Williams Lake, Northern and Central
+    sections of Wells Gray Park.
+-   Comox Valley: includes Black Creek and Cumberland.
+-   Nicola: includes Merritt, Stump Lake, Pennask Lake, and Brookmere.
+-   Prince George: includes the City of Prince George, Hwy 16 Bednesti
+    to Upper Fraser, and Hwy 97 Hixon to the south end of McLeod Lake.
+-   West Vancouver Island: includes Tofino, Uclulet, Port Renfrew,
+    Sooke.
 
 {{< accordion_end >}}
