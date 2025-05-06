@@ -3,9 +3,10 @@ author:
 - Gail Roth
 authors:
 - Gail Roth
+customMessage: test
 date: 2025-05-06
 ice: Issue
-location: Williston
+location: Multiple regions in B.C.
 params:
   customMessage: "`Custom message.`"
   ice: Issue
@@ -33,11 +34,17 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 <!-- Logo header, the layout-col should be set based on number of logos including FHNA and BCGov-->
 <!-- the trailing slash means the text in square brackets is alt text -->
 
-::: {layout-ncol= 3 layout-valign="bottom"}
+::: {layout-ncol= 6 layout-valign="bottom"}
 
 ![Government of British Columbia logo](/assets/logo_BCID_V_RGB_pos.png)\
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
+
+![Interior Health Authority logo](/assets/logo_IH.png)\
+
+![Vancouver Coastal Health Authority logo](/assets/logo_VCH.png)\
+
+![Vancouver Island Health Authority logo](/assets/logo_VIH.png)\
 
 ![Northern Health Authority logo](/assets/logo_NH.png)\
 
@@ -45,6 +52,8 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 The Regions of BC highlighted on the map are being impacted or are
 likely to be impacted by wildfire smoke over the next 24-48 hours.
+
+test
 
 During a wildfire, smoke conditions can change quickly over short
 distances and can vary considerably hour-by-hour.
@@ -61,7 +70,7 @@ webpage](https://aqwarnings.gov.bc.ca/).
 provided at the end of this page. This Air Quality Warning excludes the
 area managed by Metro Vancouver. Refer to the More Information section
 for a link to air quality notifications issued by Metro
-Vancouver.](2025-05-06_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for May 06, 2025: Williston."
+Vancouver.](2025-05-06_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for May 06, 2025: Arrow Lakes - Slocan Lake, B.C. North Peace River, Chilcotin, Howe Sound."
 width="100%" height="600px"}
 
 ## Actions you can take
@@ -79,8 +88,8 @@ people who work outdoors.
 
 ## During smoky conditions
 
-{{< accordion_controls >}}
-{{< accordion_start title="Follow your common sense" initiallyOpen="true" >}}
+{{< accordion_controls  >}}
+{{< accordion_start "Follow your common sense" "true" >}}
 
 -   Stop or reduce your activity level if breathing becomes
     uncomfortable or you feel unwell.
@@ -100,8 +109,8 @@ people who work outdoors.
 -   Make sure that children and others who cannot care for themselves
     follow the same advice.
 
-{{< accordion_end >}}
-{{< accordion_start title="Monitor your symptoms" initiallyOpen="true" >}}
+{{< accordion_end  >}}
+{{< accordion_start "Monitor your symptoms" "true" >}}
 
 -   Different people have different responses to smoke.
 
@@ -123,8 +132,8 @@ people who work outdoors.
     clinic, or emergency department. If you are having a medical
     emergency, call 9-1-1.
 
-{{< accordion_end >}}
-{{< accordion_start title="Tips to reduce your smoke exposure" initiallyOpen="true" >}}
+{{< accordion_end  >}}
+{{< accordion_start "Tips to reduce your smoke exposure" "true" >}}
 
 -   Smoke levels may be lower indoors but will still be elevated, so
     stay aware of your symptoms even when you are indoors.
@@ -150,7 +159,7 @@ people who work outdoors.
 
 -   Always follow guidance from local authorities.
 
-{{< accordion_end >}}
+{{< accordion_end  >}}
 
 ## More information
 
@@ -158,63 +167,68 @@ people who work outdoors.
 quality:**
 
 ::: bcds-card-wrapper
-{{< card_start title="Air Quality Health Index" variant="info" logo="/assets/icon_air.svg" >}}
+{{< card_start "Air Quality Health Index" "info" "/assets/icon_air.svg" >}}
 Provincial summary of latest index and forecast.
 
 [What's the air like
 today?](https://www.env.gov.bc.ca/epd/bcairquality/data/aqhi-table.html)
-{{< card_end >}}
-{{< card_start title="Air Quality Map" variant="info" logo="/assets/icon_air.svg" >}}
+{{< card_end  >}}
+{{< card_start "Air Quality Map" "info" "/assets/icon_air.svg" >}}
 Provincial air quality data refreshed every hour.
 
 [Latest air quality
 data](https://www.env.gov.bc.ca/epd/bcairquality/readings/find-stations-map.html)
-{{< card_end >}}
-{{< card_start title="Environment and Climate Change Canada FireWork" variant="danger" logo="/assets/icon_smoke.svg" >}}
+{{< card_end  >}}
+{{< card_start "Environment and Climate Change Canada FireWork" "danger" "/assets/icon_smoke.svg" >}}
 Air quality maps of next 72 hours.
 
 [Air quality forecast maps](https://weather.gc.ca/firework/index_e.html)
-{{< card_end >}}
-{{< card_start title="FireSmoke Canada" variant="danger" logo="/assets/icon_smoke.svg" >}}
+{{< card_end  >}}
+{{< card_start "FireSmoke Canada" "danger" "/assets/icon_smoke.svg" >}}
 BlueSky Canada smoke forecasting system.
 
 [Smoke forecasts](https://firesmoke.ca/forecasts/current/)
-{{< card_end >}}
-{{< card_start title="Metro Vancouver Air Quality" variant="success" logo="/assets/icon_chart.svg" >}}
+{{< card_end  >}}
+{{< card_start "Metro Vancouver Air Quality" "success" "/assets/icon_chart.svg" >}}
 Advisories and map of air quality and weather data.
 
 [Air quality data and
 warnings](https://metrovancouver.org/services/air-quality-climate-action/air-quality-data-and-advisories)
-{{< card_end >}}
+{{< card_end  >}}
 :::
 
 **For additional general information about wildfire smoke and your
 health:**
 
 ::: bcds-card-wrapper
-{{< card_start title="BC Centre for Disease Control" logo="/assets/logo_BCCDC.png" >}}
+{{< card_start "BC Centre for Disease Control" "/assets/logo_BCCDC.png" >}}
 Fact sheets on wildfire smoke and its health impacts.
 
 [Wildfire
 smoke](http://www.bccdc.ca/health-info/prevention-public-health/wildfire-smoke)
-{{< card_end >}}{{< card_start title="First Nations Health Authority" logo="/assets/logo_FNHA_horizontal.png" >}}
+{{< card_end  >}}{{< card_start "Interior Health Authority" "/assets/logo_IH_horizontal.png" >}}
+Steps to prepare and manage wildfire-related issues.
+
+[Wildfire public
+information](https://www.interiorhealth.ca/health-and-wellness/natural-disasters-and-emergencies/wildfires)
+{{< card_end  >}}{{< card_start "First Nations Health Authority" "/assets/logo_FNHA_horizontal.png" >}}
 Information and resources to help you prepare.
 
 [Wildfire smoke health
 information](https://www.fnha.ca/about/news-and-events/news/wildfire-smoke-health-information)
-{{< card_end >}}
-{{< card_start title="HealthLink BC" logo="/assets/logo_BCID_HealthLinkBC_RGB_pos.png" >}}
+{{< card_end  >}}
+{{< card_start "HealthLink BC" "/assets/logo_BCID_HealthLinkBC_RGB_pos.png" >}}
 Learn and prepare for wildfires. Phone 8-1-1 for 24/7 health advice.
 
 [Wildfires and your
 health](https://www.healthlinkbc.ca/health-library/health-features/wildfires-and-your-health)
-{{< card_end >}}
-{{< card_start title="Worksafe BC" logo="/assets/logo_worksafebc.jpg" >}}
-Info on working outdoors during smoky conditions.
+{{< card_end  >}}
+{{< card_start "Worksafe BC" "/assets/logo_worksafebc.jpg" >}} Info on
+working outdoors during smoky conditions.
 
 [Wildfire
 FAQ](https://www.worksafebc.com/en/resources/health-safety/information-sheets/wildfire-smoke-frequently-asked-questions-faq)
-{{< card_end >}}
+{{< card_end  >}}
 :::
 
 ## Contact
@@ -222,21 +236,57 @@ FAQ](https://www.worksafebc.com/en/resources/health-safety/information-sheets/wi
 **Media and public inquiries regarding air quality and the Air Quality
 Warning for wildfire smoke:**
 
-{{< card_start width="wide" >}} Gail Roth`<br />`{=html}Senior Air
-Quality Meteorologist`<br />`{=html}Ministry of Environment and
-Parks`<br />`{=html}250-645-9358 {{< card_end >}}
+{{< card_start "wide" >}}
+
+Gail Roth`<br />`{=html}Senior Air Quality
+Meteorologist`<br />`{=html}Ministry of Environment and
+Parks`<br />`{=html}250-645-9358
+
+{{< card_end  >}}
 
 **Media questions regarding health implications of wildfires:**
 
-{{< card_start  width="wide" >}} First Nations Health
-Authority`<br />`{=html}Environmental Public Health Services or Main
-FNHA Line: 604-693-6500 `<br />`{=html}After Hours:
+{{< card_start "wide" >}}
+
+First Nations Health Authority`<br />`{=html}Environmental Public Health
+Services or Main FNHA Line: 604-693-6500 `<br />`{=html}After Hours:
 1-844-666-0711`<br />`{=html}Email:
 Ephs.afterhours@fnha.ca`<br />`{=html}Media line:
-604-831-4898`<br />`{=html}, Northern Health
-Authority`<br />`{=html}Media Line: 1-877-961-7724`<br />`{=html}
-{{< card_end >}}
+604-831-4898`<br /><br />`{=html}Interior Health
+Authority`<br />`{=html}Media line: 1-844-469-7077`<br />`{=html}Email:
+media@interiorhealth.ca`<br /><br />`{=html}Northern Health
+Authority`<br />`{=html}Media Line:
+1-877-961-7724`<br /><br />`{=html}Vancouver Coastal Health
+Authority`<br />`{=html}Rachel Galligan, Communications Leader:
+236-833-5618`<br />`{=html}Deana Lancaster, Communications Leader:
+604-230-6130`<br />`{=html}After-hours media line:
+604-202-2012`<br /><br />`{=html}Vancouver Island Health
+Authority`<br />`{=html}Dominic Abassi: 250-755-7966
+(Dominic.abassi@viha.ca)`<br />`{=html}Andrew Leyne: 250-370-8908
+(Andrew.leyne@viha.ca)`<br />`{=html}After-hours media line:
+250-716-7750`<br />`{=html}
+
+{{< card_end  >}}
 
 ## Regions included under this Air Quality Warning
 
--   Williston: includes McLeod Lake, Mackenzie and Williston Lake.
+-   Arrow Lakes - Slocan Lake: includes Slocan, New Denver, Nakusp, and
+    Fauquier.
+-   B.C. North Peace River: includes the City of Fort St John and all
+    communities along Hwy 97 extending from Farmington to Pink Mountain;
+    Hwy 29 including Moberly Lake, Hudson's Hope; also includes Rolla,
+    Clayhurst and Goodlow.
+-   Chilcotin: includes Hansville, Alexis Creek, Chilanko Forks, Tatla
+    Lake, Nimpo Lake, Anahim Lake, and the southern half of Tweedsmuir
+    Park.
+-   Howe Sound: includes Horseshoe Bay, Lions Bay, Squamish, Bowen
+    Island. There is some overlap between areas of Metro Vancouver
+    (e.g. Horseshoe Bay, Lions Bay, Bowen Island) considered part of the
+    Lower Fraser Valley Airshed and the Howe Sound zone used by BC ENV
+    for issuing smoky skies bulletins. A Smoky Skies Bulletin could be
+    issued by BC ENV for the Howe Sound zone before the thresholds are
+    reached to trigger an air quality advisory issued by Metro Vancouver
+    for these overlapping parts of the Lower Fraser Valley Airshed. This
+    should not be interpreted as conflicting information; it reflects
+    the different approaches to notifications about wildfire smoke
+    within the two agencies.
