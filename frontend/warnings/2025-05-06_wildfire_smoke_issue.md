@@ -3,10 +3,9 @@ author:
 - Gail Roth
 authors:
 - Gail Roth
-customMessage: test
-date: 2025-05-05
+date: 2025-05-06
 ice: Issue
-location: Multiple regions in B.C.
+location: Williston
 params:
   customMessage: "`Custom message.`"
   ice: Issue
@@ -34,17 +33,11 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 <!-- Logo header, the layout-col should be set based on number of logos including FHNA and BCGov-->
 <!-- the trailing slash means the text in square brackets is alt text -->
 
-::: {layout-ncol= 6 layout-valign="bottom"}
+::: {layout-ncol= 3 layout-valign="bottom"}
 
 ![Government of British Columbia logo](/assets/logo_BCID_V_RGB_pos.png)\
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
-
-![Interior Health Authority logo](/assets/logo_IH.png)\
-
-![Vancouver Coastal Health Authority logo](/assets/logo_VCH.png)\
-
-![Vancouver Island Health Authority logo](/assets/logo_VIH.png)\
 
 ![Northern Health Authority logo](/assets/logo_NH.png)\
 
@@ -53,8 +46,6 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 The Regions of BC highlighted on the map are being impacted or are
 likely to be impacted by wildfire smoke over the next 24-48 hours.
 
-test
-
 During a wildfire, smoke conditions can change quickly over short
 distances and can vary considerably hour-by-hour.
 
@@ -62,7 +53,7 @@ Monitor the situation for any wildfires near your area at
 [EmergencyInfoBC](https://www.emergencyinfobc.gov.bc.ca/). Follow all
 emergency announcements relevant to your location.
 
-The next update will be available on May 06, 2025 and made available on
+The next update will be available on May 07, 2025 and made available on
 the Province's [Air Quality Warnings
 webpage](https://aqwarnings.gov.bc.ca/).
 
@@ -70,7 +61,7 @@ webpage](https://aqwarnings.gov.bc.ca/).
 provided at the end of this page. This Air Quality Warning excludes the
 area managed by Metro Vancouver. Refer to the More Information section
 for a link to air quality notifications issued by Metro
-Vancouver.](2025-05-05_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for May 05, 2025: B.C. North Peace River, B.C. South Peace River, Cariboo (South), Howe Sound, Inland Vancouver Island."
+Vancouver.](2025-05-06_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for May 06, 2025: Williston."
 width="100%" height="600px"}
 
 ## Actions you can take
@@ -206,11 +197,6 @@ Fact sheets on wildfire smoke and its health impacts.
 
 [Wildfire
 smoke](http://www.bccdc.ca/health-info/prevention-public-health/wildfire-smoke)
-{{< card_end >}}{{< card_start title="Interior Health Authority" logo="/assets/logo_IH_horizontal.png" >}}
-Steps to prepare and manage wildfire-related issues.
-
-[Wildfire public
-information](https://www.interiorhealth.ca/health-and-wellness/natural-disasters-and-emergencies/wildfires)
 {{< card_end >}}{{< card_start title="First Nations Health Authority" logo="/assets/logo_FNHA_horizontal.png" >}}
 Information and resources to help you prepare.
 
@@ -247,41 +233,10 @@ Authority`<br />`{=html}Environmental Public Health Services or Main
 FNHA Line: 604-693-6500 `<br />`{=html}After Hours:
 1-844-666-0711`<br />`{=html}Email:
 Ephs.afterhours@fnha.ca`<br />`{=html}Media line:
-604-831-4898`<br /><br />`{=html}``{=html}Interior Health
-Authority`<br />`{=html}Media line: 1-844-469-7077`<br />`{=html}Email:
-media@interiorhealth.ca`<br /><br />`{=html}``{=html}Northern Health
-Authority`<br />`{=html}Media Line:
-1-877-961-7724`<br /><br />`{=html}``{=html}Vancouver Coastal Health
-Authority`<br />`{=html}Rachel Galligan, Communications Leader:
-236-833-5618`<br />`{=html}Deana Lancaster, Communications Leader:
-604-230-6130`<br />`{=html}After-hours media line:
-604-202-2012`<br /><br />`{=html}``{=html}Vancouver Island Health
-Authority`<br />`{=html}Dominic Abassi: 250-755-7966
-(Dominic.abassi@viha.ca)`<br />`{=html}Andrew Leyne: 250-370-8908
-(Andrew.leyne@viha.ca)`<br />`{=html}After-hours media line:
-250-716-7750`<br />`{=html} {{< card_end >}}
+604-831-4898`<br />`{=html}, Northern Health
+Authority`<br />`{=html}Media Line: 1-877-961-7724`<br />`{=html}
+{{< card_end >}}
 
 ## Regions included under this Air Quality Warning
 
--   B.C. North Peace River: includes the City of Fort St John and all
-    communities along Hwy 97 extending from Farmington to Pink Mountain;
-    Hwy 29 including Moberly Lake, Hudson's Hope; also includes Rolla,
-    Clayhurst and Goodlow.
--   B.C. South Peace River: includes Chetwynd, Dawson Creek, Pouce
-    Coupe, and Tumbler Ridge.
--   Cariboo (South): includes Williams Lake, Northern and Central
-    sections of Wells Gray Park.
--   Howe Sound: includes Horseshoe Bay, Lions Bay, Squamish, Bowen
-    Island. There is some overlap between areas of Metro Vancouver
-    (e.g. Horseshoe Bay, Lions Bay, Bowen Island) considered part of the
-    Lower Fraser Valley Airshed and the Howe Sound zone used by BC ENV
-    for issuing smoky skies bulletins. A Smoky Skies Bulletin could be
-    issued by BC ENV for the Howe Sound zone before the thresholds are
-    reached to trigger an air quality advisory issued by Metro Vancouver
-    for these overlapping parts of the Lower Fraser Valley Airshed. This
-    should not be interpreted as conflicting information; it reflects
-    the different approaches to notifications about wildfire smoke
-    within the two agencies.
--   Inland Vancouver Island: includes Lake Cowichan, Nahmint, Port
-    Alberni, central portions of Strathcona Park and Schoen Lake
-    Provincial Park.
+-   Williston: includes McLeod Lake, Mackenzie and Williston Lake.
