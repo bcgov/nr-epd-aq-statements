@@ -1,12 +1,12 @@
 ---
 author:
-- Donna Haga
+- Gavin King
 authors:
-- Donna Haga
-customMessage: This try
+- Gavin King
+customMessage: 897899jkh
 date: 2025-05-07
 ice: Issue
-location: Multiple regions in B.C.
+location: Central Interior
 params:
   customMessage: "`Custom message.`"
   ice: Issue
@@ -34,7 +34,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 <!-- Logo header, the layout-col should be set based on number of logos including FHNA and BCGov-->
 <!-- the trailing slash means the text in square brackets is alt text -->
 
-::: {layout-ncol= 6 layout-valign="bottom"}
+::: {layout-ncol= 4 layout-valign="bottom"}
 
 ![Government of British Columbia logo](/assets/logo_BCID_V_RGB_pos.png)\
 
@@ -42,18 +42,14 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ![Interior Health Authority logo](/assets/logo_IH.png)\
 
-![Vancouver Coastal Health Authority logo](/assets/logo_VCH.png)\
-
 ![Vancouver Island Health Authority logo](/assets/logo_VIH.png)\
-
-![Northern Health Authority logo](/assets/logo_NH.png)\
 
 :::
 
 The Regions of BC highlighted on the map are being impacted or are
 likely to be impacted by wildfire smoke over the next 24-48 hours.
 
-This try
+897899jkh
 
 During a wildfire, smoke conditions can change quickly over short
 distances and can vary considerably hour-by-hour.
@@ -70,7 +66,7 @@ webpage](https://aqwarnings.gov.bc.ca/).
 provided at the end of this page. This Air Quality Warning excludes the
 area managed by Metro Vancouver. Refer to the More Information section
 for a link to air quality notifications issued by Metro
-Vancouver.](2025-05-07_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for May 07, 2025: B.C. North Peace River, Bulkley Valley, Comox Valley, East Kootenay (North), Fort Nelson, Inland Vancouver Island, Kootenay Lake, South Okanagan , Sunshine Coast (north), West Vancouver Island."
+Vancouver.](2025-05-07_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for May 07, 2025: Duncan, East Kootenay (North), Kootenay Lake, North Columbia, South Okanagan ."
 width="100%" height="600px"}
 
 ## Actions you can take
@@ -236,9 +232,9 @@ FAQ](https://www.worksafebc.com/en/resources/health-safety/information-sheets/wi
 **Media and public inquiries regarding air quality and the Air Quality
 Warning for wildfire smoke:**
 
-{{< card_start width="wide" >}} Donna Haga`<br />`{=html}Senior Air
+{{< card_start width="wide" >}} Gavin King`<br />`{=html}Senior Air
 Quality Meteorologist`<br />`{=html}Ministry of Environment and
-Parks`<br />`{=html}250-420-6320 {{< card_end >}}
+Parks`<br />`{=html}250-312-6798 {{< card_end >}}
 
 **Media questions regarding health implications of wildfires:**
 
@@ -253,14 +249,6 @@ Interior Health Authority`<br />`{=html}Media line:
 1-844-469-7077`<br />`{=html}Email:
 media@interiorhealth.ca`<br />`{=html}
 
-Northern Health Authority`<br />`{=html}Media Line:
-1-877-961-7724`<br />`{=html}
-
-Vancouver Coastal Health Authority`<br />`{=html}Rachel Galligan,
-Communications Leader: 236-833-5618`<br />`{=html}Deana Lancaster,
-Communications Leader: 604-230-6130`<br />`{=html}After-hours media
-line: 604-202-2012`<br />`{=html}
-
 Vancouver Island Health Authority`<br />`{=html}Dominic Abassi:
 250-755-7966 (Dominic.abassi@viha.ca)`<br />`{=html}Andrew Leyne:
 250-370-8908 (Andrew.leyne@viha.ca)`<br />`{=html}After-hours media
@@ -268,24 +256,10 @@ line: 250-716-7750`<br />`{=html} {{< card_end >}}
 
 ## Regions included under this Air Quality Warning
 
--   B.C. North Peace River: includes the City of Fort St John and all
-    communities along Hwy 97 extending from Farmington to Pink Mountain;
-    Hwy 29 including Moberly Lake, Hudson's Hope; also includes Rolla,
-    Clayhurst and Goodlow.
--   Bulkley Valley: includes Hazelton, Smithers, Telkwa, and Granisle.
--   Comox Valley: includes Black Creek and Cumberland.
+-   Duncan: extends from Ladysmith to Shawnigan Lake.
 -   East Kootenay (North): includes Edgewater, Invermere, Canal Flats
     and Skookumchuck.
--   Fort Nelson: includes Fort Nelson, Muskwa, Prophet River,
-    Buckinghorse River, Sikanni Chief, and Hwy 77 north to the Yukon
-    border.
--   Inland Vancouver Island: includes Lake Cowichan, Nahmint, Port
-    Alberni, central portions of Strathcona Park and Schoen Lake
-    Provincial Park.
 -   Kootenay Lake: includes Creston and Kaslo.
+-   North Columbia: includes Blue River and McMurphy.
 -   South Okanagan : includes Penticton, Summerland, Naramata, Keremeos,
     Oliver and Osoyoos.
--   Sunshine Coast (north): includes, Powell River, Quadra Island to
-    Texada Island.
--   West Vancouver Island: includes Tofino, Uclulet, Port Renfrew,
-    Sooke.
