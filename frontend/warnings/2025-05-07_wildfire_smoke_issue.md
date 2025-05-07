@@ -1,9 +1,9 @@
 ---
 author:
-- Sakshi Jain
+- Donna Haga
 authors:
-- Sakshi Jain
-customMessage: Another custom
+- Donna Haga
+customMessage: This try
 date: 2025-05-07
 ice: Issue
 location: Multiple regions in B.C.
@@ -34,15 +34,13 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 <!-- Logo header, the layout-col should be set based on number of logos including FHNA and BCGov-->
 <!-- the trailing slash means the text in square brackets is alt text -->
 
-::: {layout-ncol= 7 layout-valign="bottom"}
+::: {layout-ncol= 6 layout-valign="bottom"}
 
 ![Government of British Columbia logo](/assets/logo_BCID_V_RGB_pos.png)\
 
 ![First Nations Health Authority logo](/assets/logo_FNHA.png)\
 
 ![Interior Health Authority logo](/assets/logo_IH.png)\
-
-![Fraser Health Authority logo](/assets/logo_FH.png)\
 
 ![Vancouver Coastal Health Authority logo](/assets/logo_VCH.png)\
 
@@ -55,7 +53,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 The Regions of BC highlighted on the map are being impacted or are
 likely to be impacted by wildfire smoke over the next 24-48 hours.
 
-Another custom
+This try
 
 During a wildfire, smoke conditions can change quickly over short
 distances and can vary considerably hour-by-hour.
@@ -72,7 +70,7 @@ webpage](https://aqwarnings.gov.bc.ca/).
 provided at the end of this page. This Air Quality Warning excludes the
 area managed by Metro Vancouver. Refer to the More Information section
 for a link to air quality notifications issued by Metro
-Vancouver.](2025-05-07_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for May 07, 2025: Arrow Lakes - Slocan Lake, East Vancouver Island (central), Fort Nelson, Greater Victoria, Inland Vancouver Island, Kootenay Lake, North Okanagan, Sunshine Coast (north), West Vancouver Island, Whistler, Williston."
+Vancouver.](2025-05-07_wildfire_smoke_issue_map.html){fig-alt="Air Quality Warning - Wildfire Smoke Regions for May 07, 2025: B.C. North Peace River, Bulkley Valley, Comox Valley, East Kootenay (North), Fort Nelson, Inland Vancouver Island, Kootenay Lake, South Okanagan , Sunshine Coast (north), West Vancouver Island."
 width="100%" height="600px"}
 
 ## Actions you can take
@@ -238,9 +236,9 @@ FAQ](https://www.worksafebc.com/en/resources/health-safety/information-sheets/wi
 **Media and public inquiries regarding air quality and the Air Quality
 Warning for wildfire smoke:**
 
-{{< card_start width="wide" >}} Sakshi Jain`<br />`{=html}Air Quality
-Meteorologist`<br />`{=html}Ministry of Environment and
-Parks`<br />`{=html}250-420-6435 {{< card_end >}}
+{{< card_start width="wide" >}} Donna Haga`<br />`{=html}Senior Air
+Quality Meteorologist`<br />`{=html}Ministry of Environment and
+Parks`<br />`{=html}250-420-6320 {{< card_end >}}
 
 **Media questions regarding health implications of wildfires:**
 
@@ -249,42 +247,45 @@ Authority`<br />`{=html}Environmental Public Health Services or Main
 FNHA Line: 604-693-6500 `<br />`{=html}After Hours:
 1-844-666-0711`<br />`{=html}Email:
 Ephs.afterhours@fnha.ca`<br />`{=html}Media line:
-604-831-4898`<br />`{=html} Fraser Health Authority`<br />`{=html}Media
-Line: 604-613-0794`<br />`{=html}Email:
-media@fraserhealth.ca`<br />`{=html} Interior Health
-Authority`<br />`{=html}Media line: 1-844-469-7077`<br />`{=html}Email:
-media@interiorhealth.ca`<br />`{=html} Northern Health
-Authority`<br />`{=html}Media Line: 1-877-961-7724`<br />`{=html}
+604-831-4898`<br />`{=html}
+
+Interior Health Authority`<br />`{=html}Media line:
+1-844-469-7077`<br />`{=html}Email:
+media@interiorhealth.ca`<br />`{=html}
+
+Northern Health Authority`<br />`{=html}Media Line:
+1-877-961-7724`<br />`{=html}
+
 Vancouver Coastal Health Authority`<br />`{=html}Rachel Galligan,
 Communications Leader: 236-833-5618`<br />`{=html}Deana Lancaster,
 Communications Leader: 604-230-6130`<br />`{=html}After-hours media
-line: 604-202-2012`<br />`{=html} Vancouver Island Health
-Authority`<br />`{=html}Dominic Abassi: 250-755-7966
-(Dominic.abassi@viha.ca)`<br />`{=html}Andrew Leyne: 250-370-8908
-(Andrew.leyne@viha.ca)`<br />`{=html}After-hours media line:
-250-716-7750`<br />`{=html} {{< card_end >}}
+line: 604-202-2012`<br />`{=html}
+
+Vancouver Island Health Authority`<br />`{=html}Dominic Abassi:
+250-755-7966 (Dominic.abassi@viha.ca)`<br />`{=html}Andrew Leyne:
+250-370-8908 (Andrew.leyne@viha.ca)`<br />`{=html}After-hours media
+line: 250-716-7750`<br />`{=html} {{< card_end >}}
 
 ## Regions included under this Air Quality Warning
 
--   Arrow Lakes - Slocan Lake: includes Slocan, New Denver, Nakusp, and
-    Fauquier.
--   East Vancouver Island (central): includes Nanoose Bay, Parksville,
-    Coombs, Qualicum Beach, Fanny Bay, Denman Island, Hornby Island, and
-    Lasqueti Island.
+-   B.C. North Peace River: includes the City of Fort St John and all
+    communities along Hwy 97 extending from Farmington to Pink Mountain;
+    Hwy 29 including Moberly Lake, Hudson's Hope; also includes Rolla,
+    Clayhurst and Goodlow.
+-   Bulkley Valley: includes Hazelton, Smithers, Telkwa, and Granisle.
+-   Comox Valley: includes Black Creek and Cumberland.
+-   East Kootenay (North): includes Edgewater, Invermere, Canal Flats
+    and Skookumchuck.
 -   Fort Nelson: includes Fort Nelson, Muskwa, Prophet River,
     Buckinghorse River, Sikanni Chief, and Hwy 77 north to the Yukon
     border.
--   Greater Victoria: includes Sidney, Victoria, Saanich, Langford,
-    Metchosin.
 -   Inland Vancouver Island: includes Lake Cowichan, Nahmint, Port
     Alberni, central portions of Strathcona Park and Schoen Lake
     Provincial Park.
 -   Kootenay Lake: includes Creston and Kaslo.
--   North Okanagan: includes Vernon, Armstrong, Enderby, Lavington and
-    Lumby.
+-   South Okanagan : includes Penticton, Summerland, Naramata, Keremeos,
+    Oliver and Osoyoos.
 -   Sunshine Coast (north): includes, Powell River, Quadra Island to
     Texada Island.
 -   West Vancouver Island: includes Tofino, Uclulet, Port Renfrew,
     Sooke.
--   Whistler: includes Whistler and Pemberton.
--   Williston: includes McLeod Lake, Mackenzie and Williston Lake.
