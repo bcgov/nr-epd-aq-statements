@@ -251,7 +251,7 @@ Ephs.afterhours@fnha.ca`<br />`{=html}Media line:
 Authority`<br />`{=html}Media line: 1-844-469-7077`<br />`{=html}Email:
 media@interiorhealth.ca`<br /><br />`{=html}``{=html}Northern Health
 Authority`<br />`{=html}Media Line:
-1-877-961-7724`<br /><br />`{=html}``{=html}Vancouver Coastal Health
+1-877-961-7724`<br /><br />`{=html} T ``{=html}Vancouver Coastal Health
 Authority`<br />`{=html}Rachel Galligan, Communications Leader:
 236-833-5618`<br />`{=html}Deana Lancaster, Communications Leader:
 604-230-6130`<br />`{=html}After-hours media line:
