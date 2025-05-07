@@ -13,11 +13,6 @@ contributes:
         - "assets"
     format: bcds-html
     website:
-      announcement: 
-        dismissable: false
-        content: "**Note** - This is a prototype site, please visit gov.bc.ca - [Air advisories](https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality/air-advisories) for current information."
-        type: primary
-        position: below-navbar
       page-footer:
         border: false
         center: |
