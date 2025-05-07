@@ -247,7 +247,7 @@ Authority`<br />`{=html}Environmental Public Health Services or Main
 FNHA Line: 604-693-6500 `<br />`{=html}After Hours:
 1-844-666-0711`<br />`{=html}Email:
 Ephs.afterhours@fnha.ca`<br />`{=html}Media line:
-604-831-4898`<br /><br />`{=html}  &nbsp;   ``{=html}Interior Health
+604-831-4898`<br /><br />`{=html}  &nbsp;   Interior Health
 Authority`<br />`{=html}Media line: 1-844-469-7077`<br />`{=html}Email:
 media@interiorhealth.ca`<br /><br />`{=html}``{=html}Northern Health
 Authority`<br />`{=html}Media Line:
