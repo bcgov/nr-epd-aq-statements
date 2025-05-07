@@ -255,7 +255,8 @@ Authority`<br />`{=html}Media Line:
 Authority`<br />`{=html}Rachel Galligan, Communications Leader:
 236-833-5618`<br />`{=html}Deana Lancaster, Communications Leader:
 604-230-6130`<br />`{=html}After-hours media line:
-604-202-2012`<br /><br />`{=html}``{=html}Vancouver Island Health
+604-202-2012`<br /><br />`{=html}
+``{=html}Vancouver Island Health
 Authority`<br />`{=html}Dominic Abassi: 250-755-7966
 (Dominic.abassi@viha.ca)`<br />`{=html}Andrew Leyne: 250-370-8908
 (Andrew.leyne@viha.ca)`<br />`{=html}After-hours media line:
