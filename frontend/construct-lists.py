@@ -40,12 +40,13 @@ def process_yaml_files():
         print("processing input file: {file}".format(file=METRO_VAN_FILE_NAME))
         metro_van_warnings = yaml.safe_load(file)
 
-        for entry in metro_van_warnings:
+        if metro_van_warnings:
+            for entry in metro_van_warnings:
             # append all entrieds that are within the threshold number of days
-            if 'date' in entry: 
-                age = (datetime.date.today() - parsed_header['date']).days
-                if age < RECENT_THRESHOLD_DAYS:
-                    RECENT_WARNINGS.append(entry)  
+                if 'date' in entry: 
+                    age = (datetime.date.today() - parsed_header['date']).days
+                    if age < RECENT_THRESHOLD_DAYS:
+                        RECENT_WARNINGS.append(entry)  
 
 def process_input_files():
     # for warnings in the quarto project
