@@ -34,18 +34,20 @@ RECENT_WARNINGS = []
 WILDFIRE_SMOKE_WARNINGS = []
 
 
-def process_input_files():
+def process_yaml_files():
     # for warnings issued by Metro Vancouver and added to METRO_VAN_FILE_NAME
     with open(METRO_VAN_FILE_NAME, 'r') as file:
+        print("processing input file: {file}".format(file=METRO_VAN_FILE_NAME))
         metro_van_warnings = yaml.safe_load(file)
 
-        print("processing metro van warnings")
+        for entry in metro_van_warnings:
+            # append all entrieds that are within the threshold number of days
+            if 'date' in entry: 
+                age = (datetime.date.today() - parsed_header['date']).days
+                if age < RECENT_THRESHOLD_DAYS:
+                    RECENT_WARNINGS.append(entry)  
 
-        for warning in metro_van_warnings:
-            # append to the yaml file
-            WILDFIRE_SMOKE_WARNINGS.append(warning)
-    
-
+def process_input_files():
     # for warnings in the quarto project
     for f in INPUT_FILES:
         if not f:
@@ -100,6 +102,9 @@ def process_input_files():
                         if age < RECENT_THRESHOLD_DAYS:
                             RECENT_WARNINGS.append(entry_from_header)
 
+print(METRO_VAN_FILE_NAME)
+
+process_yaml_files()
 
 print(yaml.safe_dump(INPUT_FILES))
 
