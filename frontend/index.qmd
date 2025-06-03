@@ -6,7 +6,6 @@ listing:
     template: _aqw_listing.ejs
     contents:
       - ./_recent_warnings.yaml
-      - ./_metro_van_warnings.yaml
     sort: "date desc"
 ---
 
