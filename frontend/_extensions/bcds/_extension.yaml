@@ -89,7 +89,7 @@ contributes:
             href: https://www2.gov.bc.ca/gov/content?id=D346785D05974705ADB564F81F058186
   formats:
     html:
-      toc: false
+      toc: true
       include-before-body:
         text: |
           <script>
