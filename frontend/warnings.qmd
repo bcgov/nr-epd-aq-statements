@@ -8,6 +8,7 @@ listing:
     ice: "Status"
     location: "Location"
   contents: "warnings/**/*.*md"
+  sort: "date desc"
 ---
 
 <!-- Table of all warnings: https://quarto.org/docs/websites/website-listings.html -->
