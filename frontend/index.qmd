@@ -1,6 +1,6 @@
 ---
 title: "Air quality warnings"
-
+toc: false
 listing:
   - id: aq-warnings
     template: _aqw_listing.ejs
