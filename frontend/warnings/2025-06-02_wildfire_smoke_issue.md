@@ -92,14 +92,6 @@ people who work outdoors.
 -   Make sure that children and others who cannot care for themselves
     follow the same advice.
 
--   If you have asthma or other chronic illness, carry any rescue
-    (fast-acting) medications with you at all times and activate your
-    personal care plan that has been designed with your family
-    physician.
-
--   Make sure that children and others who cannot care for themselves
-    follow the same advice.
-
 {{< accordion_end >}}
 {{< accordion_start title="Monitor your symptoms" initiallyOpen="true" >}}
 
@@ -129,7 +121,7 @@ people who work outdoors.
 -   Smoke levels may be lower indoors but will still be elevated, so
     stay aware of your symptoms even when you are indoors.
 
--   When indoor, keep windows and doors closed as much as possible.
+-   When indoors, keep windows and doors closed as much as possible.
 
 -   When there is an extreme heat event occurring with poor air quality,
     prioritize keeping cool.
