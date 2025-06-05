@@ -1,4 +1,5 @@
 import datetime
+import pytz
 import os
 import re
 
@@ -29,6 +30,13 @@ RECENT_WARNINGS = []
 WILDFIRE_SMOKE_WARNINGS = []
 
 
+def get_today_in_bc_timezone():
+    # Use Pacific Time (Vancouver)
+    bc_tz = pytz.timezone("America/Vancouver")
+    now_in_bc = datetime.now(pytz.utc).astimezone(bc_tz)
+    return now_in_bc.date()
+
+
 def process_input_files():
     for f in INPUT_FILES:
         if not f:
@@ -55,7 +63,7 @@ def process_input_files():
 
                 if 'type' in parsed_header and parsed_header['type'].lower() == 'wildfire_smoke':
                     if 'date' in parsed_header:
-                        age = (datetime.date.today() - parsed_header['date']).days
+                        age = (get_today_in_bc_timezone() - parsed_header["date"]).days
                         threshold = RECENT_THRESHOLD_DAYS
 
                         if 'ice' in parsed_header and parsed_header['ice'].lower() == 'issue':
@@ -72,14 +80,14 @@ def process_input_files():
                     # comment this out to not have separate behaviour for wildfire_smoke
                     if 'type' in parsed_header and parsed_header['type'].lower() == 'wildfire_smoke':
                         if 'ice' in parsed_header and parsed_header['ice'].lower() == 'issue':
-                            age = (datetime.date.today() - parsed_header['date']).days
+                            age = (get_today_in_bc_timezone() - parsed_header["date"]).days
                             threshold = 1  # Only 1 day for wildfire_smoke with ice = Issue
 
                         if age >= threshold:
                             skip = True
 
                     if not skip:
-                        age = (datetime.date.today() - parsed_header['date']).days
+                        age = (get_today_in_bc_timezone() - parsed_header["date"]).days
                         if age < RECENT_THRESHOLD_DAYS:
                             RECENT_WARNINGS.append(entry_from_header)
 
