@@ -7,9 +7,10 @@ import yaml
 """
 This script generates two files as part of the pre-render process for quarto site generation
 
-RECENTS_FILE_NAME will contain a yaml list of files with a date attribute newer than RECENT_THRESHOLD_DAYS
+RECENTS_FILE_NAME will contain a yaml list of files with a date attribute newer than RECENT_THRESHOLD_DAYS 
+or that is present in the metro van warnings yaml 
 
-WILDFIRE_FILE_NAME will contain any with an `wildfire_smoke` meta attribute set to True
+WILDFIRE_FILE_NAME will contain any with an `wildfire_smoke` meta attribute in type
 
 These are then used in custom listings within the qmd markup
 """
@@ -17,19 +18,38 @@ These are then used in custom listings within the qmd markup
 # editable -- consider posts less than RECENT_THRESHOLD_DAYS days old to be "recent"
 # Hardcoded below to 1 day for smoky skies bulletins with ice = Issue metadata
 RECENT_THRESHOLD_DAYS = 5
-RECENTS_FILE_NAME = '_recent_warnings.yaml'
 
+# file names for different warning types
+RECENTS_FILE_NAME = '_recent_warnings.yaml'
 WILDFIRE_FILE_NAME = '_wildfire.yaml'
 
 # globals. do not modify.
 INPUT_FILES = os.getenv('QUARTO_PROJECT_INPUT_FILES').split("\n")
 HEADER_REGEX = re.compile('^---\n((.*\n)+)---\n', re.MULTILINE)
 
+# define where the metro vancouver warnings will be
+METRO_VAN_FILE_NAME = '_metro_van_warnings.yaml'
+
 RECENT_WARNINGS = []
 WILDFIRE_SMOKE_WARNINGS = []
 
 
+def process_yaml_files():
+    # for warnings issued by Metro Vancouver and added to METRO_VAN_FILE_NAME
+    with open(METRO_VAN_FILE_NAME, 'r') as file:
+        print("processing input file: {file}".format(file=METRO_VAN_FILE_NAME))
+        metro_van_warnings = yaml.safe_load(file)
+
+        if metro_van_warnings:
+            for entry in metro_van_warnings:
+            # append all entrieds that are within the threshold number of days
+                if 'date' in entry: 
+                    age = (datetime.date.today() - parsed_header['date']).days
+                    if age < RECENT_THRESHOLD_DAYS:
+                        RECENT_WARNINGS.append(entry)  
+
 def process_input_files():
+    # for warnings in the quarto project
     for f in INPUT_FILES:
         if not f:
             continue  # skip empty input lines
@@ -83,6 +103,9 @@ def process_input_files():
                         if age < RECENT_THRESHOLD_DAYS:
                             RECENT_WARNINGS.append(entry_from_header)
 
+print(METRO_VAN_FILE_NAME)
+
+process_yaml_files()
 
 print(yaml.safe_dump(INPUT_FILES))
 
