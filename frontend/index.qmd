@@ -22,7 +22,7 @@ listing:
 
 - Subscribe to the [Air Quality Subscription Service](https://www2.gov.bc.ca/gov/content/environment/air-land-water/air/air-quality/air-advisories/air-quality-subscription-service)
 - Outside regular business hours, visit [Environment and Climate Change Canada’s Public Weather Alerts for B.C.](https://weather.gc.ca/?province=bc&zoom=5&alertTableFilterProv=BC)
-- For **Metro Vancouver** and the **Fraser Valley Regional District**, see [Metro Vancouver’s Air Quality Data and Warnings](https://metrovancouver.org/services/air-quality-climate-action/air-quality-data-and-advisories) and [AirMap.ca](https://gis.metrovancouver.org/maps/Air). For subscription to air quality advisories and bulletins, use [Metro Vancouver’s Air Quality and Climate Change Mailing List](https://metrovancouver.org/services/air-quality-climate-action/mailing-list)
+- For information about air quality warnings within [**Metro Vancouver** and parts of the **Fraser Valley Regional District**](https://gis.metrovancouver.org/maps/Air), visit [Metro Vancouver’s Air Quality Data and Warnings](https://metrovancouver.org/services/air-quality-climate-action/air-quality-data-and-advisories) webpage.
 
 {{< callout_end >}}
 
@@ -31,14 +31,10 @@ listing:
 
 An air quality warning is issued when pollutant concentrations approach or exceed predetermined limits, or when degraded-air-quality episodes are expected to continue or worsen.
 
-Warnings are issued in order to:
+Warnings are issued to:
 
 - inform about degraded air quality
 - help people make informed choices about reducing their exposure to elevated concentrations of air pollutants
-- affect emission reduction actions (such as a limit on industrial emissions or wood stove use)
 - provide vulnerable individuals and the general public with health advice developed by BC health agencies
 
-
-## About wildfire smoke air quality warnings
-
-The wildfire smoke warning is a special type of public advisory to communicate the rapidly changing nature of wildfire smoke. It is issued when areas of the province are being impacted or have reasonable potential to be impacted by wildfire smoke within 24 to 48 hours. These warnings are based on available pollutant concentrations information, satellite information, smoke forecast models and visual observations, and are not intended to manage local emission sources.
+Warnings, other than those driven by wildfire smoke, serve as a trigger for emission reduction actions (such as industrial emissions or wood stove use) when specified by provincial waste discharge authorizations and local government bylaws.
