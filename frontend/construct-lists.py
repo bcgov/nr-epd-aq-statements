@@ -33,7 +33,7 @@ WILDFIRE_SMOKE_WARNINGS = []
 def get_today_in_bc_timezone():
     # Use Pacific Time (Vancouver)
     bc_tz = pytz.timezone("America/Vancouver")
-    now_in_bc = datetime.now(pytz.utc).astimezone(bc_tz)
+    now_in_bc = datetime.datetime.now(pytz.utc).astimezone(bc_tz)
     return now_in_bc.date()
 
 
