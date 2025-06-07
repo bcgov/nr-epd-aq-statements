@@ -1,0 +1,19 @@
+[
+  {
+    "listing": "/warnings.html",
+    "items": [
+      "/warnings/2025-06-07_wildfire_smoke_issue.html",
+      "/warnings/2025-06-06_wildfire_smoke_issue.html",
+      "/warnings/2025-06-05_wildfire_smoke_issue.html",
+      "/warnings/2025-06-04_wildfire_smoke_issue.html",
+      "/warnings/2025-06-03_wildfire_smoke_issue.html",
+      "/warnings/2025-06-02_wildfire_smoke_issue.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/warnings/2025-06-07_wildfire_smoke_issue.html"
+    ]
+  }
+]
