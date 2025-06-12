@@ -4,7 +4,7 @@ author:
 authors:
 - Gail Roth
 customMessage: Wildfire smoke will also be visible in the Bulkley Valley
-  (and most prevalent west of Babine Lake) but is expected to clear this
+  (and most prevalent east of Babine Lake) but is expected to clear this
   afternoon. 
 date: 2025-06-12
 ice: Issue
@@ -50,7 +50,7 @@ The Regions of BC highlighted on the map are being impacted or are
 likely to be impacted by wildfire smoke over the next 24-48 hours.
 
 Wildfire smoke will also be visible in the Bulkley Valley (and most
-prevalent west of Babine Lake) but is expected to clear this afternoon. 
+prevalent east of Babine Lake) but is expected to clear this afternoon. 
 
 During a wildfire, smoke conditions can change quickly over short
 distances and can vary considerably hour-by-hour.
