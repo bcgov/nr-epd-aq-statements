@@ -4,10 +4,23 @@ This document outlines how warnings are selected for inclusion on the front page
 
 ## Overview
 
-The script processes input files from Quarto's project input files and categorizes them according to two main criteria:
+The [script](https://github.com/bcgov/aqwarnings/blob/main/frontend/construct-lists.py) processes input files from Quarto's project input files and categorizes them according to two main criteria:
 
 1. **Recent Warnings**: Warnings issued within the past 5 days (configurable via `RECENT_THRESHOLD_DAYS`)
 2. **Wildfire Smoke Warnings**: Specifically categorized wildfire smoke advisories with special handling
+
+
+## Business Description
+
+The script:
+1. Reads input files from `QUARTO_PROJECT_INPUT_FILES` environment variable
+2. Extracts YAML headers using regex
+3. Applies the selection logic
+4. Outputs two YAML files:
+   - `_recent_warnings.yaml` for recent warnings
+   - `_wildfire.yaml` for wildfire smoke warnings
+
+These output files are then used in custom listings within the Quarto site.
 
 ## Selection Flowchart
 
@@ -82,16 +95,4 @@ flowchart TD
 2. Special handling for wildfire smoke warnings:
    - If it's a wildfire smoke warning with `ice: issue` and is 1+ days old, it's explicitly excluded
    - This is done to prevent older "issue" wildfire smoke warnings from appearing in the recent list
-3. Otherwise, any warning less than 5 days old (`RECENT_THRESHOLD_DAYS`) is added to `_recent_warnings.yaml`.
-
-## Technical Implementation
-
-The script:
-1. Reads input files from `QUARTO_PROJECT_INPUT_FILES` environment variable
-2. Extracts YAML headers using regex
-3. Applies the selection logic
-4. Outputs two YAML files:
-   - `_recent_warnings.yaml` for recent warnings
-   - `_wildfire.yaml` for wildfire smoke warnings
-
-These output files are then used in a [custom listing](https://github.com/bcgov/aqwarnings/blob/main/frontend/index.qmd#L4) on the front page of the Quarto web site.
+3. Otherwise, any warning less than 5 days old (`RECENT_THRESHOLD_DAYS`) is included in the Recent Warnings list.
