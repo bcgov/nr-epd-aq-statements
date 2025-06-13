@@ -1,6 +1,6 @@
-# Warning Selection Logic
+# Front Page Selection Logic
 
-This document outlines how warnings are selected for inclusion in the Recent Warnings and Wildfire Smoke Warnings lists by the `construct-lists.py` script.
+This document outlines how warnings are selected for inclusion on the front page as part of site rendering.
 
 ## Overview
 
@@ -73,16 +73,16 @@ flowchart TD
 3. If a date exists, age is calculated by comparing the warning's date to today's date (in BC timezone).
 4. Different thresholds apply:
    - Default: Include if less than 5 days old (`RECENT_THRESHOLD_DAYS`)
-   - Special case: For warnings with `ice: issue`, include only if less than 1 day old
-5. If the age is less than the applicable threshold, the warning is added to the Wildfire Smoke Warnings list.
+   - Modifiers: For warnings with `ice: issue`, include only if less than 1 day old
+5. If the age is less than the applicable threshold, the warning is added to `_wildfire.yaml`.
 
 ### For Recent Warnings
 
-1. All files with a `date` metadata field are considered for the Recent Warnings list.
+1. All files with a `date` metadata field are considered.
 2. Special handling for wildfire smoke warnings:
    - If it's a wildfire smoke warning with `ice: issue` and is 1+ days old, it's explicitly excluded
    - This is done to prevent older "issue" wildfire smoke warnings from appearing in the recent list
-3. Otherwise, any warning less than 5 days old (`RECENT_THRESHOLD_DAYS`) is included in the Recent Warnings list.
+3. Otherwise, any warning less than 5 days old (`RECENT_THRESHOLD_DAYS`) is added to `_recent_warnings.yaml`.
 
 ## Technical Implementation
 
@@ -94,4 +94,4 @@ The script:
    - `_recent_warnings.yaml` for recent warnings
    - `_wildfire.yaml` for wildfire smoke warnings
 
-These output files are then used in custom listings within the Quarto site.
+These output files are then used in a [custom listing](https://github.com/bcgov/aqwarnings/blob/main/frontend/index.qmd#L4) on the front page of the Quarto web site.
