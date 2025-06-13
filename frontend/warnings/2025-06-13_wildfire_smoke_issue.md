@@ -237,7 +237,7 @@ Northern Health Authority`<br />`{=html}Media Line:
 
 ## Regions included under this Air Quality Warning
 
--   Atlin:
+-   Atlin
 -   B.C. North Peace River: includes the City of Fort St John and all
     communities along Hwy 97 extending from Farmington to Pink Mountain;
     Hwy 29 including Moberly Lake, Hudson's Hope; also includes Rolla,
@@ -249,6 +249,6 @@ Northern Health Authority`<br />`{=html}Media Line:
     border.
 -   Muncho Lake Park - Stone Mountain Park: includes Muncho Lake, Toad
     River and Stone Mountain Provincial Park.
--   Teslin:
+-   Teslin
 -   Watson Lake: includes Liard River, Lower Post and extends north to
     the Yukon border.
