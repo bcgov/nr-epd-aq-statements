@@ -10,6 +10,7 @@ platformdirs==4.3.6
 python-dateutil==2.9.0.post0
 PyYAML==6.0.2
 pyzmq==26.2.0
+pytz==2025.2
 referencing==0.36.2
 rpds-py==0.22.3
 six==1.17.0

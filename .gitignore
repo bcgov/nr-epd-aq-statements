@@ -5,3 +5,5 @@ frontend/_site/
 .Ruserdata
 .Rproj.user
 .idea
+.vscode
+__pycache__
