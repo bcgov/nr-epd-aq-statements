@@ -4,11 +4,9 @@ This document outlines how warnings are selected for inclusion on the front page
 
 ## Overview
 
-The [script](https://github.com/bcgov/aqwarnings/blob/main/frontend/construct-lists.py) processes input files from Quarto's project input files and categorizes them according to two main criteria:
+The [script](https://github.com/bcgov/aqwarnings/blob/main/frontend/construct-lists.py) processes input files from Quarto's project input files and categorizes them to identify recent warnings:
 
-1. **Recent Warnings**: Warnings issued within the past 5 days (configurable via `RECENT_THRESHOLD_DAYS`)
-2. **Wildfire Smoke Warnings**: Specifically categorized wildfire smoke advisories with special handling
-
+**Recent Warnings**: Warnings issued within the past 5 days (configurable via `RECENT_THRESHOLD_DAYS`), with special handling for wildfire smoke warnings.
 
 ## Business Description
 
@@ -16,11 +14,10 @@ The script:
 1. Reads input files from `QUARTO_PROJECT_INPUT_FILES` environment variable
 2. Extracts YAML headers using regex
 3. Applies the selection logic
-4. Outputs two YAML files:
+4. Outputs a YAML file:
    - `_recent_warnings.yaml` for recent warnings
-   - `_wildfire.yaml` for wildfire smoke warnings
 
-These output files are then used in custom listings within the Quarto site.
+This output file is then used in custom listings within the Quarto site.
 
 ## Selection Flowchart
 
@@ -30,43 +27,26 @@ flowchart TD
     B -->|No| Z[Skip File]
     B -->|Yes| C[Extract Header Metadata]
     
-    C --> F1{Is type 'wildfire_smoke'?}
-    F1 -->|Yes| D1{Has 'date' Metadata?}
-    F1 -->|No| D2{Has 'date' Metadata?}
+    C --> D{Has 'date' Metadata?}
     
-    D1 -->|No| Z2[Skip Wildfire Processing]
-    D1 -->|Yes| E1[Calculate Age in Days]
+    D -->|No| Z4[Skip Processing]
+    D -->|Yes| E[Calculate Age in Days]
     
-    E1 --> G{Has ICE = 'issue'?}
+    E --> F{Is type 'wildfire_smoke'?}
     
-    G -->|Yes| H[Set Threshold = 1 day]
-    G -->|No| I[Use Default Threshold: 5 days]
+    F -->|Yes| G{Has ICE = 'issue'?}
+    F -->|No| J
     
-    H --> K{Age < Threshold?}
-    I --> K
+    G -->|Yes| H{Age >= 1 day?}
+    G -->|No| J
     
-    K -->|Yes| L[Add to WILDFIRE_SMOKE_WARNINGS]
-    K -->|No| Z3[Skip Wildfire List]
+    H -->|Yes| O[Skip Recent List]
+    H -->|No| J
     
-    D2 -->|No| Z4[Skip Recent Processing]
-    D2 -->|Yes| E2[Calculate Age in Days]
-    
-    E2 --> J{Age < RECENT_THRESHOLD_DAYS?}
-    
-    L --> R{Is type 'wildfire_smoke'?}
-    Z3 --> R
-    
-    R -->|Yes| S{Has ICE = 'issue'?}
-    R -->|No| J
-    
-    S -->|Yes| T{Age >= 1 day?}
-    S -->|No| J
-    
-    T -->|Yes| O[Skip Recent List]
-    T -->|No| J
+    J{Age < 5 days?}
     
     J -->|Yes| N[Add to RECENT_WARNINGS]
-    J -->|No| O
+    J -->|No| O[Skip Recent List]
 ```
 
 ## Selection Logic Details
@@ -75,19 +55,7 @@ flowchart TD
 
 1. File is processed if it has a valid YAML header.
 2. Essential metadata is extracted (path, title, type, ice, date, location).
-3. Processing branches into two separate evaluation paths:
-   - Evaluation for Wildfire Smoke Warnings
-   - Evaluation for Recent Warnings
-
-### For Wildfire Smoke Warnings
-
-1. The code first checks if the file has `type: wildfire_smoke` metadata.
-2. If it does, the code then checks if the file has a `date` metadata field.
-3. If a date exists, age is calculated by comparing the warning's date to today's date (in BC timezone).
-4. Different thresholds apply:
-   - Default: Include if less than 5 days old (`RECENT_THRESHOLD_DAYS`)
-   - Modifiers: For warnings with `ice: issue`, include only if less than 1 day old
-5. If the age is less than the applicable threshold, the warning is added to `_wildfire.yaml`.
+3. The file is considered for the Recent Warnings list if it has a date.
 
 ### For Recent Warnings
 
