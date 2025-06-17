@@ -49,7 +49,6 @@ def extract_header_from_file(file_path: str) -> Optional[Dict[str, Any]]:
             if match:
                 doc_preamble = match.group(1)
                 parsed_header = yaml.safe_load(doc_preamble)
-                
                 # Prepare entry from header
                 entry_from_header = {
                     "path": file_path,
