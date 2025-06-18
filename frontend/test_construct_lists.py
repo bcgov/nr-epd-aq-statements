@@ -1,19 +1,10 @@
 import datetime
 import unittest
-import sys
-import os
 import pytz
 from unittest.mock import patch
 
-# Add parent directory to path to import module with hyphen in name
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-
-# Use importlib to import module with hyphen in name
-import importlib
-construct_lists = importlib.import_module("construct-lists")
-select_recent_warnings = construct_lists.select_recent_warnings
-extract_header_from_file = construct_lists.extract_header_from_file
-get_today_in_bc_timezone = construct_lists.get_today_in_bc_timezone
+import construct_lists
+from construct_lists import select_recent_warnings, extract_header_from_file, get_today_in_bc_timezone
 
 
 class TestWarningSelectionLogic(unittest.TestCase):
