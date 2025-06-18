@@ -4,7 +4,7 @@ This document outlines how warnings are selected for inclusion on the front page
 
 ## Overview
 
-The [script](https://github.com/bcgov/aqwarnings/blob/main/frontend/construct-lists.py) processes input files from Quarto's project input files and categorizes them to identify recent warnings:
+The [script](https://github.com/bcgov/aqwarnings/blob/main/frontend/construct_lists.py) processes input files from Quarto's project input files and categorizes them to identify recent warnings:
 
 **Recent Warnings**: Warnings issued within the past 5 days (configurable via `RECENT_THRESHOLD_DAYS`), with special handling for wildfire smoke warnings.
 

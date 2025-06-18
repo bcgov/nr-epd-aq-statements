@@ -15,7 +15,8 @@ SEARCH_TEXT = "::: {layout-ncol= "
 REPLACE_TEXT = "::: {layout-ncol="
 
 # globals. do not modify.
-INPUT_FILES = os.getenv('QUARTO_PROJECT_INPUT_FILES').split("\n")
+_quarto_input_files = os.getenv('QUARTO_PROJECT_INPUT_FILES')
+INPUT_FILES = _quarto_input_files.split("\n") if _quarto_input_files is not None else []
 
 def process_input_files():
     for f in INPUT_FILES:
